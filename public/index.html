@@ -1,334 +1,264 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
-<head>
-	<meta name="generator" content="Hugo 0.147.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>My New Hugo Site</title>
+<html lang="en"><head>
+	<meta name="generator" content="Hugo 0.147.2"><script src="/my-hugo-website/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=my-hugo-website/livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="icon shortcut" href="/my-hugo-website/favicon.ico" sizes="32x32" />
+<link rel="icon" href="/my-hugo-website/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="/my-hugo-website/favicon-dark.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)" />
+<link rel="icon" href="/my-hugo-website/favicon-16x16.png" type="image/png" sizes="16x16" />
+<link rel="icon" href="/my-hugo-website/favicon-32x32.png" type="image/png" sizes="32x32" />
+<link rel="apple-touch-icon" href="/my-hugo-website/apple-touch-icon.png" sizes="180x180" />
+<link fetchpriority="low" href="/my-hugo-website/site.webmanifest" rel="manifest" />
+<title>UiPath Documentation</title>
+  <meta name="description" content="" /><link rel="canonical" href="http://localhost:1313/my-hugo-website/" itemprop="url" />
 
-    <link rel="stylesheet" href="/css/main.css">
+<meta property="og:title" content="Hextra Theme" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:1313/my-hugo-website/" />
+
+  <meta itemprop="name" content="Hextra Theme">
+  <meta itemprop="description" content="Free, open source UiPath Data Service for no-code data modellingUiPath® Data Service is a persistent data storage service that brings powerful no-code data modeling and storage capabilities to your automation">
+  <meta itemprop="datePublished" content="2025-05-11T23:13:11+03:00">
+  <meta itemprop="dateModified" content="2025-05-11T23:13:11+03:00">
+  <meta itemprop="wordCount" content="37">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Hextra Theme">
+  <meta name="twitter:description" content="Free, open source UiPath Data Service for no-code data modellingUiPath® Data Service is a persistent data storage service that brings powerful no-code data modeling and storage capabilities to your automation">
+
+    <link href="/my-hugo-website/css/compiled/main.css" rel="stylesheet" />
 
 
-      <script src="/js/main.js"></script>
+
+  <link href="/my-hugo-website/css/custom.css" rel="stylesheet" />
 
 
-</head>
-<body>
-  <header>
-    <h1>My New Hugo Site</h1>
+  <script>
+     
+    const defaultTheme = 'system';
 
-  <nav>
-    <ul>
-    <li>
-      <a aria-current="page" class="active" href="/">Home</a>
-    </li>
-    <li>
-      <a href="/posts/">Posts</a>
-    </li>
-    <li>
-      <a href="/tags/">Tags</a>
-    </li>
-    </ul>
+    const setDarkTheme = () => {
+      document.documentElement.classList.add("dark");
+      document.documentElement.style.colorScheme = "dark";
+    }
+    const setLightTheme = () => {
+      document.documentElement.classList.remove("dark");
+      document.documentElement.style.colorScheme = "light";
+    }
+
+    if ("color-theme" in localStorage) {
+      localStorage.getItem("color-theme") === "dark" ? setDarkTheme() : setLightTheme();
+    } else {
+      defaultTheme === "dark" ? setDarkTheme() : setLightTheme();
+      if (defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? setDarkTheme() : setLightTheme();
+      }
+    }
+  </script>
+
+  
+  </head>
+<body dir="ltr"><div class="nav-container hx:sticky hx:top-0 hx:z-20 hx:w-full hx:bg-transparent hx:print:hidden">
+  <div class="nav-container-blur hx:pointer-events-none hx:absolute hx:z-[-1] hx:h-full hx:w-full hx:bg-white hx:dark:bg-dark hx:shadow-[0_2px_4px_rgba(0,0,0,.02),0_1px_0_rgba(0,0,0,.06)] hx:contrast-more:shadow-[0_0_0_1px_#000] hx:dark:shadow-[0_-1px_0_rgba(255,255,255,.1)_inset] hx:contrast-more:dark:shadow-[0_0_0_1px_#fff]"></div>
+
+  <nav class="hx:mx-auto hx:flex hx:items-center hx:justify-end hx:gap-2 hx:h-16 hx:px-6 hx:max-w-[90rem]">
+    <a class="hx:flex hx:items-center hx:hover:opacity-75 hx:ltr:mr-auto hx:rtl:ml-auto" href="/my-hugo-website/">
+        <img class="hx:mr-2 hx:block hx:dark:hidden" src="/my-hugo-website/images/logo.svg" alt="UiPath Documentation" height="20" width="20" />
+        <img class="hx:mr-2 hx:hidden hx:dark:block" src="/my-hugo-website/images/logo.svg" alt="UiPath Documentation" height="20" width="20" />
+        <span class="hx:mr-2 hx:font-extrabold hx:inline hx:select-none" title="UiPath Documentation">UiPath Documentation</span>
+    </a><button type="button" aria-label="Menu" class="hamburger-menu hx:cursor-pointer hx:-mr-2 hx:rounded-sm hx:p-2 hx:active:bg-gray-400/20 hx:md:hidden"><svg height=24 fill="none" viewBox="0 0 24 24" stroke="currentColor"><g><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8H20"></path></g><g><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16H20"></path></g></svg></button>
   </nav>
+</div>
 
+  <div class='hx:mx-auto hx:flex hx:max-w-screen-xl'>
+    <aside class="sidebar-container hx:flex hx:flex-col hx:print:hidden hx:md:top-16 hx:md:shrink-0 hx:md:w-64 hx:md:self-start hx:max-md:[transform:translate3d(0,-100%,0)] hx:md:hidden">
+  
+  <div class="hx:px-4 hx:pt-4 hx:md:hidden">
+    <div class="search-wrapper hx:relative hx:md:w-64">
+  <div class="hx:relative hx:flex hx:items-center hx:text-gray-900 hx:contrast-more:text-gray-800 hx:dark:text-gray-300 hx:contrast-more:dark:text-gray-300">
+    <input
+      placeholder="Search..."
+      class="search-input hx:block hx:w-full hx:appearance-none hx:rounded-lg hx:px-3 hx:py-2 hx:transition-colors hx:text-base hx:leading-tight hx:md:text-sm hx:bg-black/[.05] hx:dark:bg-gray-50/10 hx:focus:bg-white hx:dark:focus:bg-dark hx:placeholder:text-gray-500 hx:dark:placeholder:text-gray-400 hx:contrast-more:border hx:contrast-more:border-current"
+      type="search"
+      value=""
+      spellcheck="false"
+    />
+    <kbd
+      class="hx:absolute hx:my-1.5 hx:select-none hx:ltr:right-1.5 hx:rtl:left-1.5 hx:h-5 hx:rounded-sm hx:bg-white hx:px-1.5 hx:font-mono hx:text-[10px] hx:font-medium hx:text-gray-500 hx:border hx:border-gray-200 hx:dark:border-gray-100/20 hx:dark:bg-dark/50 hx:contrast-more:border-current hx:contrast-more:text-current hx:contrast-more:dark:border-current hx:items-center hx:gap-1 hx:transition-opacity hx:pointer-events-none hx:hidden hx:sm:flex"
+    >
+      CTRL K
+    </kbd>
+  </div>
 
-  </header>
-  <main>
+  <div>
+    <ul
+      class="search-results hextra-scrollbar hx:hidden hx:border hx:border-gray-200 hx:bg-white hx:text-gray-100 hx:dark:border-neutral-800 hx:dark:bg-neutral-900 hx:absolute hx:top-full hx:z-20 hx:mt-2 hx:overflow-auto hx:overscroll-contain hx:rounded-xl hx:py-2.5 hx:shadow-xl hx:max-h-[min(calc(50vh-11rem-env(safe-area-inset-bottom)),400px)] hx:md:max-h-[min(calc(100vh-5rem-env(safe-area-inset-bottom)),400px)] hx:inset-x-0 hx:ltr:md:left-auto hx:rtl:md:right-auto hx:contrast-more:border hx:contrast-more:border-gray-900 hx:contrast-more:dark:border-gray-50 hx:w-screen hx:min-h-[100px] hx:max-w-[min(calc(100vw-2rem),calc(100%+20rem))]"
+      style="transition: max-height 0.2s ease 0s;"
+    ></ul>
+  </div>
+</div>
+
+  </div>
+  <div class="hextra-scrollbar hx:overflow-y-auto hx:overflow-x-hidden hx:p-4 hx:grow hx:md:h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
+    <ul class="hx:flex hx:flex-col hx:gap-1 hx:md:hidden">
+      
+      
+          <li class=""><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/my-hugo-website/docs/"
     
-  <p>Laborum voluptate pariatur ex culpa magna nostrud est incididunt fugiat
-pariatur do dolor ipsum enim. Consequat tempor do dolor eu. Non id id anim anim
-excepteur excepteur pariatur nostrud qui irure ullamco.</p>
-
-  
-    <h2><a href="/docs/another-section/page-one/">Page One</a></h2>
+  >Introduction to UiPath
+        <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></span>
+    </a><div class="hx:ltr:pr-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/my-hugo-website/docs/getting-started/"
     
-  
-    <h2><a href="/docs/getting-started/">Getting Started</a></h2>
+  >Getting Started
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/my-hugo-website/docs/using-data-service/"
     
-  
-    <h2><a href="/posts/post-3/">Post 3</a></h2>
-    <p>Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum. Deserunt esse cillum Lorem non magna adipisicing mollit amet consequat.</p>
-  
-    <h2><a href="/posts/post-2/">Post 2</a></h2>
-    <p>Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.</p>
-<p>Exercitation voluptate irure in irure tempor mollit Lorem nostrud ad officia. Velit id fugiat occaecat do tempor. Sit officia Lorem aliquip eu deserunt consectetur. Aute proident deserunt in nulla aliquip dolore ipsum Lorem ut cupidatat consectetur sit sint laborum. Esse cupidatat sit sint sunt tempor exercitation deserunt. Labore dolor duis laborum est do nisi ut veniam dolor et nostrud nostrud.</p>
-  
-    <h2><a href="/posts/post-1/">Post 1</a></h2>
-    <p>Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.</p>
-<p>Occaecat nulla excepteur dolore excepteur duis eiusmod ullamco officia anim in voluptate ea occaecat officia. Cillum sint esse velit ea officia minim fugiat. Elit ea esse id aliquip pariatur cupidatat id duis minim incididunt ea ea. Anim ut duis sunt nisi. Culpa cillum sit voluptate voluptate eiusmod dolor. Enim nisi Lorem ipsum irure est excepteur voluptate eu in enim nisi. Nostrud ipsum Lorem anim sint labore consequat do.</p>
-  
-    <h2><a href="/docs/examples-and-tutorials/downloading-file-fields-in-entity-records/"></a></h2>
-    <h1 id="downloading-file-fields-in-entity-records">Downloading File Fields in Entity Records</h1>
-<p>Using Studio you can easily manipulate specific files of an entity record. These activities allow you to execute operations such as upload, download, or delete specified files of a specified field of an entity record.</p>
-<p>The following example demonstrates how to automatically download from Data Service a specified file containing information from the Olympics games extracted from Wikipedia pages in order to use it for other operations.</p>
-  
-    <h2><a href="/docs/examples-and-tutorials/uploading-data-from-csv-using-batch-activities/"></a></h2>
-    <h1 id="uploading-data-from-csv-using-batch-activities">Uploading Data From CSV Using Batch Activities</h1>
-<h2 id="tutorial-overview">Tutorial Overview</h2>
-<p>Batch activities accept and return a <code>List&lt;T&gt;</code> of entity records as
-input and output for creating, updating, or deleting multiple items.</p>
-<p>These activities can accept up to 1,000 records in a single call and each activity call
-will count as one call against your service usage quota.</p>
-<p>To understand how to use batch activities in Data Service, download the example below and
-follow the steps in this tutorial. The example creates 50 records for an entity via 2
-batch activity calls.</p>
-  
-    <h2><a href="/docs/examples-and-tutorials/uploading-file-fields-in-entity-records/"></a></h2>
-    <h1 id="uploading-file-fields-in-entity-records">Uploading File Fields in Entity Records</h1>
-<p>Using Studio you can easily manipulate specific files of an entity record. These activities allow you to execute operations such as upload, download, or delete specified files of a specified field of an entity record.</p>
-<p>The maximum size of a single file cannot exceed 10 MB, otherwise unexpected behavior might occur.</p>
-<p>The following example contains a main XAML demonstrating how to upload a file to Data Service, after downloading it from Olympics games related Wikipedia pages.</p>
-  
-    <h2><a href="/docs/examples-and-tutorials/using-entities-in-projects/"></a></h2>
-    <h1 id="using-entities-in-projects">Using Entities in Projects</h1>
-<p>By using entities created in Data Service, you can manage and manipulate data aggregated in a single object, without having to work with it in a granular way. To do so you need Studio v2020.8 or later.</p>
-<p>The following example retrieves data about Olympics games and medals for the top 10 countries for each category of games, together with the medals they won.</p>
-<p>Download example</p>
-<h2 id="entities-in-data-service">Entities in Data Service</h2>
-<p>Following the steps detailed on the Creating an Entity page, we created an entity for storing information about participating nations, the opening and closing dates, and the medals they won.</p>
-  
-    <h2><a href="/docs/getting-started/data-service-configuration-checklist/"></a></h2>
-    <h1 id="data-service-configuration-checklist">Data Service Configuration Checklist</h1>
-<h2 id="overview">Overview</h2>
-<p>After installing and enabling Data Service on your on-premises environment, make sure to check the list present in this guide that evaluates if Data Service is working properly.</p>
-<h2 id="evaluation-guide">Evaluation Guide</h2>
-<h3 id="home-page-experience">Home Page Experience</h3>
-<ol>
-<li>The Data Service tab is displayed on the left-hand of the Automation Suite home page.</li>
-<li>The More options menu displays the following options: Choice Sets, Manage Access, API Access.</li>
-<li>On the Entities page header the following operations are available: Import/Export , Use in Studio , Refresh .</li>
-</ol>
-<h3 id="editing-entities">Editing Entities</h3>
-<ol>
-<li>On the Entities page, clicking the Create New Entity button opens the Create Entity panel on the right-side.</li>
-<li>In case of entities available for review, clicking every entity redirects you to the Fields page.</li>
-<li>Adding a new field activates the Add New Data button in the Data tab and on the page header.</li>
-<li>Deleting a field or an entity requires you to input the field or entity name for confirmation.</li>
-</ol>
-<h3 id="editing-choice-sets">Editing Choice Sets</h3>
-<ol>
-<li>On the Choice Sets page, clicking the Add Choice Set button opens the Create Choice Set panel on the right-side.</li>
-<li>In case of choice sets available for review, clicking the corresponding Edit button opens the Edit Choice Set panel on the right-side.</li>
-<li>Deleting a choice set requires you to input the choice set name for confirmation.</li>
-</ol>
-<h3 id="using-file-fields">Using File Fields</h3>
-<p>In Data Service, you can add file fields to upload files or download files using Studio or Data Service dedicated activities.</p>
-  
-    <h2><a href="/docs/getting-started/installing-automation-suite/"></a></h2>
-    <h1 id="installing-automation-suite">Installing Automation Suite</h1>
-<p>See how to install Automation Suite, or Automation Suite on EKS/AKS.</p>
-  
-    <h2><a href="/docs/getting-started/introduction/"></a></h2>
-    <h1 id="introduction">Introduction</h1>
-<h2 id="overview">Overview</h2>
-<p>UiPath® Data Service is a persistent data storage service that brings powerful
-no-code data modeling and storage capabilities to your Robotic Process Automation (RPA)
-projects.</p>
-<p>UiPath® Data Service provides a business yet user-friendly service where you can securely
-store and manage your business data within UiPath:</p>
-<ul>
-<li>Run unattended processes to aggregate
-data from multiple systems before processing it in other systems.</li>
-<li>Use the data for long-running
-business processes that need to transfer data across multiple attended and
-unattended processes.</li>
-<li>The integration with Studio and
-UiPath® Robot allows you to build automations leveraging capabilities such
-as: Rich relational data types; Integrated security; Instantaneous and adjustable
-provisioning and deployments.</li>
-</ul>
-<h2 id="use-cases">Use Cases</h2>
-<p>Below is a list of some common use cases for Data Service:</p>
-  
-    <h2><a href="/docs/getting-started/the-user-interface/"></a></h2>
-    <h1 id="the-user-interface">The User Interface</h1>
-<p>The Data Service option is available in your UiPath organization as a tenant-level service that must be enabled. Please check the Enabling the Data Service page for step by step details. Once the service enabled, the Data Service icon  appears on the left navigation bar.</p>
-<p>Objects created in Data Service are referred to as Entities.</p>
-<p>To create a new entity or display and manage already created ones, click the Data Service icon.</p>
-  
-    <h2><a href="/docs/reference/api-access/"></a></h2>
-    <h1 id="api-access">API Access</h1>
-<h2 id="overview">Overview</h2>
-<p>Data Service Open API allows you to manage UiPath Data Service resources from an external application of your choice, and does so by enabling you to authorize the external app without sharing any credentials, through the Oauth 2.0 authorization framework.</p>
-<p>Learn how to register the external application in UiPath® Automation Suite.</p>
-<h2 id="api-permissions">API Permissions</h2>
-<p>To use the Data Service OpenAPI, you must grant API permissions to the external application. These API permissions are known as scopes, and there are three types for Data Service:</p>
-  
-    <h2><a href="/docs/reference/data-service-studio-activities/"></a></h2>
-    <h1 id="data-service-studio-activities">Data Service Studio Activities</h1>
-<p>This section includes Data Service related activities available in UiPath® Studio under
-the UiPath.DataService.Activities pack.</p>
-<ul>
-<li>Entity records
-manipulation: Create Entity RecordDelete Entity RecordGet Entity Record By IdQuery Entity RecordsUpdate Entity Record</li>
-<li>File fields from entity records
-manipulation: Upload File to Record FieldDownload File from Record FieldDelete File from Record Field</li>
-<li>Multiple entity records
-manipulation: Create Multiple Entity RecordsUpdate Multiple Entity RecordsDelete Multiple Entity Records</li>
-</ul>
-  
-    <h2><a href="/docs/reference/entity-field-types/auto-number/"></a></h2>
-    <h1 id="auto-number">Auto-number</h1>
-<p>An Auto-number field is used to store a unique index number for your data. It automatically increments the count for every new record.</p>
-<h3 id="details">Details</h3>
-<p>Below is an overview of the details that can be specified to define an Auto-number field.</p>
-<p>PropertyDescriptionRequiredAllowed valuesStarting value(Int64)Enables you to specify the starting index number of your records. The first record has this value. The following records increment from this value forward.Default value: 1Yes1 to (2^53-1)Description(String)Enables you to enter a short text to describe the purpose of the Auto-number field.The description is displayed in the Fields tab.No</p>
-  
-    <h2><a href="/docs/reference/entity-field-types/choice-set/"></a></h2>
-    <h1 id="choice-set">Choice Set</h1>
-<p>A Choice Set field is used to store an enumerated list from which one or more values can be selected. A Choice Set can be used, for example, to select an expense type, a forum post category, or a certain edition of a recurring event.</p>
-<h3 id="details">Details</h3>
-<p>Below is an overview of the details that can be specified to define a Choice Set field.</p>
-<p>PropertyDescriptionRequiredDefault ValueChoice SetEnables you to select the choice set you want to use for the field, or to create a new choice set.You can click View all Choice Sets to access the Choice Sets module.YesAllow multiple selectionsEnables you to specify whether more than one value can be selected from the available choices.NoNoRequiredEnables you to specify whether the field is required or not.NoNoDescriptionEnables you to enter a short text to describe the purpose of the Choice Set field.The Description is  displayed in Fields tab.No</p>
-  
-    <h2><a href="/docs/reference/entity-field-types/date-time/"></a></h2>
-    <h1 id="date-time">Date-Time</h1>
-<p>A Date-Time field is used to store a value that contains a date and time. A date picker can be used to select a date and time.</p>
-<p><img src="/images/8dc3755-DateTime=GUID-0EA6A81B-32AD-48D0-9620-FE32241FEA81=1=en=Default.png" alt="8dc3755-DateTime=GUID-0EA6A81B-32AD-48D0-9620-FE32241FEA81=1=en=Default"></p>
-<h3 id="should-hide-time">Should Hide Time</h3>
-<p>If you select the Should Hide Time option the field value of the Date-Time field can only contain a date value. In this case, you can only select a date from the date picker.</p>
-<p><img src="/images/06c69be-Date=GUID-CF82923B-994C-4BD5-9A45-42976B1E04D2=1=en=Default.png" alt="06c69be-Date=GUID-CF82923B-994C-4BD5-9A45-42976B1E04D2=1=en=Default"></p>
-<p>All Date-Time and Date fields are stored as UTC dates and times in Data Service.</p>
-  
-    <h2><a href="/docs/reference/entity-field-types/file/"></a></h2>
-    <h1 id="file">File</h1>
-<p>A File field is used to attach a file to a record field of an entity.</p>
-<p>The maximum size of a single file cannot exceed 10 MB, otherwise unexpected behavior might occur.</p>
-<h3 id="details">Details</h3>
-<p>Below is an overview of the details that can be specified to define a File field.</p>
-<p>PropertyDescriptionRequiredDefault ValueDescriptionEnables you to enter a short text to describe the purpose of the File field.The Description is  displayed in Fields tab.No</p>
-  
-    <h2><a href="/docs/reference/entity-field-types/number/"></a></h2>
-    <h1 id="number">Number</h1>
-<p>A Number field is used to store a number value. Number values can be positive or negative. You must specify the number of decimal places that you want to use.</p>
-<h3 id="details">Details</h3>
-<p>Below is an overview of the details that can be specified to define a Number field.</p>
-<p>PropertyDescriptionRequiredDefault ValueAllowed ValuesMaximum ValueEnables you to specify the maximum value of the number that can be entered in the Number field.This can be a negative number.Yes1000000000000Between Minimum Value and 2^53 - 1Minimum ValueEnables you to specify the minimum value of the number that can be entered in the Number field.This can be a negative number.Yes-1000000000000Between -(2^53 - 1) and Maximum ValueDecimal PlacesEnables you to specify the maximum number of decimals that can be used for the Number field.Yes20 - 10Default ValueEnables you to specify a default value for the Number field.The default value can be changed in the Data tab.NoDescriptionEnables you to enter a short text to describe the purpose of the Number field.The Description will be displayed in Fields tab.No</p>
-  
-    <h2><a href="/docs/reference/entity-field-types/relationship/"></a></h2>
-    <h1 id="relationship">Relationship</h1>
-<p>A Relationship field type is used to bind two entities. The field uses the one-to-many (1:M) cardinality to correlate a field from the related entity (1) with the host entity (M).</p>
-<h3 id="details">Details</h3>
-<p>Below is an overview of the details that can be specified to define a Relationship field.</p>
-<p>PropertyDescriptionRequiredDefault ValueRelated EntityEnables you to select the entity to which you want to create a relationship.YesRelated Entity Display FieldEnables you to select the display field from the related entity to be shown in the user interface.The actual relationship between the entities is based on the Ids of entities.YesDescriptionEnables you to enter a short text to describe the purpose of the Relationship field.The Description is  displayed in Fields tab.No</p>
-  
-    <h2><a href="/docs/reference/entity-field-types/text/"></a></h2>
-    <h1 id="text">Text</h1>
-<p>A Text field is used to store a small amount of text.</p>
-<h3 id="details">Details</h3>
-<p>Below is an overview of the details that can be specified to define a Text field.</p>
-<p>PropertyDescriptionRequiredDefault ValueAllowed ValuesMaximum LengthEnables you to specify the maximum number of characters that can be entered in the Text field.Yes2001 - 4,000Default ValueEnables you to specify a default value for the Text field.The default value can be changed in the Data tab.NoDescriptionEnables you to enter a short text to describe the purpose of the Textfield.The Description will be displayed in Fields tab.No</p>
-  
-    <h2><a href="/docs/reference/entity-field-types/yesno/"></a></h2>
-    <h1 id="yesno">Yes/No</h1>
-<p>A Yes/No field is used to choose between a Yes or No value.</p>
-<p>The option None is available in case the field is not required. If selected, it leaves the field value empty.</p>
-<p><img src="/images/c8536c2-Boolean=GUID-5967D8D7-43BA-48E5-A85F-CE7717B96EF5=1=en=Default.png" alt="c8536c2-Boolean=GUID-5967D8D7-43BA-48E5-A85F-CE7717B96EF5=1=en=Default"></p>
-<h3 id="details">Details</h3>
-<p>Below is an overview of the details that can be specified to define a Yes/No field.</p>
-<p>PropertyDescriptionRequiredDefault ValueDefault ValueEnables you to specify a default value for the Yes-No field.The default value can be changed in the Data tab.NoDescriptionEnables you to enter a short text to describe the purpose of the Yes-No field.The Description is displayed in Fields tab.No</p>
-  
-    <h2><a href="/docs/setup-and-configuration/enabling-data-service/"></a></h2>
-    <h1 id="enabling-data-service">Enabling Data Service</h1>
-<p>To be able to create and use Data Service you first need to enable it for your tenant. Before enabling the service please check the Prerequisites.</p>
-<p>Data Service is a tenant level service signifying that each tenant data is segregated.</p>
-<h2 id="enabling-data-service-in-automation-suite">Enabling Data Service in Automation Suite</h2>
-<p>There are two scenarios that enable Data Service as part of your Automation Suite instance:</p>
-<h3 id="the-case-of-a-fresh-automation-suite-installation">The Case of a Fresh Automation Suite Installation</h3>
-<p>Data Service is provided as part of the Automation Suite basic profile, hence it is enabled
-automatically, regardless if you select the basic or the complete profile. To disable Data
-Service, follow the Advanced installation experience in the Automation Suite guide for
-the desired version.</p>
-  
-    <h2><a href="/docs/setup-and-configuration/managing-access/"></a></h2>
-    <h1 id="managing-access">Managing Access</h1>
-<h2 id="overview">Overview</h2>
-<p>The Manage Access module enables you to manage user roles for an entity in your Data Service tenant. This extensive and granular permission model allows you to integrate all your business users using the service, based on their level of expertise, and your business requirements. Furthermore, you can select users or groups from your organization and assign roles to them.</p>
-<p>Data Service is configured such that organization users can read data by default, via the Everyone group.To limit data access, manage permissions and ensure that only relevant users have the Read permission. Further, add users or groups that need access, and assign them the desired roles.</p>
-  
-    <h2><a href="/docs/using-the-data-service/advanced-search-in-entity-data/"></a></h2>
-    <h1 id="advanced-search-in-entity-data">Advanced Search in Entity Data</h1>
-<p>Entities contain a large amount of data which can be difficult to navigate and query.</p>
-<p>The advanced search feature allows you to find any entity data, by querying any of the data fields.</p>
-<h2 id="roles">Roles</h2>
-<p>You need the Data Reader role to see and query entity data. See more details on how to Manage access.</p>
-<h2 id="searching-for-data">Searching for Data</h2>
-<p>To use the Search in field:Navigate to the Data tab of the desired entity in Data Service. From the Search in: dropdown, select the entity fields you want to retrieve results from.The search algorithm looks up number and text data-type fields.In the Search field, enter the search string. The grid displays the queried results. To apply more filters on your results list, click Advanced Search. This opens the Advanced Search panel on the right-hand side.</p>
-  
-    <h2><a href="/docs/using-the-data-service/choice-sets/"></a></h2>
-    <h1 id="choice-sets">Choice Sets</h1>
-<p>The Choice Sets module enables you to manage choice sets for a data service tenant. Choice sets can be used as field types in an entity.</p>
-<p>A choice set consists of choice values that can be selected from for a field based on that choice set. The choice set is also made available in Studio as Enum value.</p>
-<p>Learn how to manage your choice sets: access, create, update or delete your Data Service choice sets.</p>
-  
-    <h2><a href="/docs/using-the-data-service/creating-an-entity/"></a></h2>
-    <h1 id="creating-an-entity">Creating an Entity</h1>
-<p>All objects created in Data Service are referred to as Entities.</p>
-<p>Navigate to Data Service from the left-side navigation bar. The Entities page opens.Click Create New Entity. The Create Entity wizard opens.Enter a Display Name for your entity. The Display Name is the name displayed when you import the entity in Studio. This field can be modified after the entity is created.Enter a Name for your entity. The Name is can be alpha-numeric, but it must start with a letter. It must have between 3 and 30 characters.The Name field is automatically populated with the same value provided for the Display Name. You can only change its value during the entity creation process. Once the entity is created, the Name field cannot be edited.Optionally, add a Description for your entity.Optionally, to keep the Create entity wizard open, select the Create another checkbox. This helps you create multiple entities faster, as it skips step 2 of this procedure.Click Save.</p>
-  
-    <h2><a href="/docs/using-the-data-service/creating-relationships/"></a></h2>
-    <h1 id="creating-relationships">Creating Relationships</h1>
-<p>Follow these steps to create a relationship between your entities.</p>
-<p>In the Entities list, select the entity for which you want to add a relationship.In the Fields tab, click Create New Field.In the Create Field panel enter a Display Name in the corresponding field.Select Relationship from the Type drop-down list.Select the entity to which you want to create a relationship from the Related Entity drop-down list.Select the display field to be shown in the user interface from the Related Entity Display Field drop-down list.Click Save.</p>
-  
-    <h2><a href="/docs/using-the-data-service/customizing-an-entity/"></a></h2>
-    <h1 id="customizing-an-entity">Customizing an Entity</h1>
-<h2 id="introduction">Introduction</h2>
-<p>Data Service contains System built-in fields. When you create a new entity a set of default fields is automatically created still you can customize the entities you defined by adding specific fields.</p>
-<p><img src="/images/89378c7-Default_fields=GUID-F70EFAE8-9242-4342-A1FA-E1D75011F937=1=en=Default.png" alt="89378c7-Default_fields=GUID-F70EFAE8-9242-4342-A1FA-E1D75011F937=1=en=Default"></p>
-<h2 id="field-types">Field Types</h2>
-<p>You can create the fields of the following field types.</p>
-<ul>
-<li>Text : this field can be used to store a small amount of text.</li>
-<li>Number : this field can be used to store a number value. Number values can be positive or negative. You must specify the number of decimal places that you want to use.</li>
-<li>Yes/No : this field is used to choose between a Yes or No value.</li>
-<li>Date-Time : this field is used to store a value that contains a date and time. A date picker can be used to select a date and time.</li>
-<li>Relationship : this field is used to create a relation between two entities.</li>
-<li>Choice Set : this field is used to store a list of enumerated values from which one or more values can be selected.</li>
-<li>File: this field is used to store a file.</li>
-<li>Auto-number: this field is used to automatically increase record indexes.</li>
-</ul>
-<p>Each type of field requires different details that must be specified. Please check the specific page under Entity Field Types to find out more.</p>
-  
-    <h2><a href="/docs/using-the-data-service/importing-entities-in-studio/"></a></h2>
-    <h1 id="importing-entities-in-studio">Importing Entities in Studio</h1>
-<p>Entities enable you to use records from Data Service in automation processes that collect, update, and pass data to other processes. Learn to import entities in Studio.</p>
-  
-    <h2><a href="/docs/using-the-data-service/managing-the-data-for-an-entity/"></a></h2>
-    <h1 id="managing-the-data-for-an-entity">Managing the Data for an Entity</h1>
-<p>You can import the entity in UiPath® Studio and use it in your process to create data.
-However, you can add, manage, and delete basic data to entities in Data Service by
-following the below steps:</p>
-<h2 id="adding-data">Adding Data</h2>
-<p>To add new data to an entity follow the below steps:</p>
-<p>Click on the entity for which you want to add more data.
-Access the Data tab.Click Add New Data.In the Add Data panel add a value for each field that you have defined for the entity.Click Save.A new data record is displayed in the Data tab.</p>
-  
-    <h2><a href="/docs/using-the-data-service/schema-export-and-import/"></a></h2>
-    <h1 id="schema-export-and-import">Schema Export and Import</h1>
-<h2 id="overview">Overview</h2>
-<p>A schema represents the metadata of every entity and choice set, holding information such as entity fields data type or relationships between entity fields.</p>
-<p>By exporting and importing schema, you are able to implement the best practices of an application lifecycle management—development, testing, deployment—considering capabilities such as copying schema between tenants or tracking schema changes through a source control tool of your choice.</p>
-<p>Exporting schema downloads a JSON file containing the entity metadata on your local machine. You may share the file to be imported by different developers into their tenants, and you yourself can import schemas developed by the community.</p>
-  
-    <h2><a href="/docs/using-the-data-service/system-user-entity/"></a></h2>
-    <h1 id="system-user-entity">System User Entity</h1>
-<p>The System User entity holds all the users, groups, and robot accounts available in your tenant.</p>
-<p>A banner asking you to upgrade is displayed when you access any entity created prior to the release of the System User entity:</p>
-<p><img src="/images/db6125f-upgrade_entity=GUID-D9A29036-4B35-4A40-B4C3-AC5ACD2619BC=1=en=Default.png" alt="db6125f-upgrade_entity=GUID-D9A29036-4B35-4A40-B4C3-AC5ACD2619BC=1=en=Default"></p>
-<p>The upgrading process converts the type of Created By and Modified By fields from UniqueId to Relationship.</p>
-<p><img src="/images/3162c91-difference_in_fields=GUID-7280B99A-1DAC-4AF1-B785-091AC866BCCA=1=en=Default.png" alt="3162c91-difference_in_fields=GUID-7280B99A-1DAC-4AF1-B785-091AC866BCCA=1=en=Default"></p>
-<p>Processes using Created By and Updated By fields must be updated to query the relationship to identify users that created or modified the records, and use the latest version of Data Service activities.</p>
-  
-    <h2><a href="/docs/using-the-data-service/using-apps-with-data-service/"></a></h2>
-    <h1 id="using-apps-with-data-service">Using Apps With Data Service</h1>
-<p>Learn to use Apps with Data Service.</p>
-  
+  >Using Data Service
+        <span class="hextra-sidebar-collapsible-button"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></span>
+    </a>
+              <div class="hx:ltr:pr-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/my-hugo-website/docs/using-data-service/creating-relationships/"
+    
+  >Creating Relationships
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/my-hugo-website/docs/using-data-service/advanced-search-in-entity-data/"
+    
+  >Advanced Search in Entity Data
+    </a>
+              
+            </li></ul>
+      </div>
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/my-hugo-website/docs/choice-sets/"
+    
+  >Choice sets
+    </a>
+              
+            </li><li class="hx:flex hx:flex-col "><a
+    class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+    href="/my-hugo-website/docs/advanced-search-in-entity-data/"
+    
+  >Advanced search in entity data
+    </a>
+              
+            </li></ul>
+      </div></li>
+    </ul>
 
-  </main>
-  <footer>
-    <p>Copyright 2025. All rights reserved.</p>
+    </div>
+  
+  
+    <div class="hx:md:hidden  hx:sticky hx:bottom-0 hx:max-h-(--menu-height) hx:bg-white hx:dark:bg-dark hx:mx-4 hx:py-4 hx:shadow-[0_-12px_16px_#fff] hx:flex hx:items-center hx:gap-2 hx:border-gray-200 hx:dark:border-neutral-800 hx:dark:shadow-[0_-12px_16px_#111] hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:shadow-none hx:border-t" data-toggle-animation="show"><div class="hx:flex hx:grow hx:flex-col"><button
+  title="Change theme"
+  data-theme="light"
+  class="theme-toggle hx:cursor-pointer hx:group hx:h-7 hx:rounded-md hx:px-2 hx:text-left hx:text-xs hx:font-medium hx:text-gray-600 hx:transition-colors hx:dark:text-gray-400 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50"
+  type="button"
+  aria-label="Change theme"
+>
+  <div class="hx:flex hx:items-center hx:gap-2 hx:capitalize"><svg height=12 class="hx:group-data-[theme=light]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg><span class="hx:group-data-[theme=light]:hidden">Light</span><svg height=12 class="hx:group-data-[theme=dark]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg><span class="hx:group-data-[theme=dark]:hidden">Dark</span></div>
+</button>
+</div></div></aside>
+    <div class="hx:w-full hx:break-words hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:pb-8 hx:pt-8 hx:md:pt-12 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-left),1.5rem)]">
+      <div class="hx:flex hx:flex-col hx:items-start">
+        <a
+  
+  class=" not-prose hx:inline-flex hx:items-center hx:rounded-full hx:gap-2 hx:px-3 hx:py-1 hx:text-xs hx:text-gray-600 hx:dark:text-gray-400 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:border-gray-200 hx:dark:border-neutral-800 hx:border hx:hover:border-gray-400 hx:dark:hover:text-gray-50 hx:dark:hover:border-gray-600 hx:transition-all hx:ease-in hx:duration-200"
+  
+  >
+    <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
+  <span>Free, open source</span>
+  <span class="hx:inline-block hx:align-text-bottom icon"><svg height=14 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></span>
 
-  </footer>
-</body>
+</a>
+
+<div class="hx:mt-6 hx:mb-6">
+<h1
+  class="not-prose hx:text-4xl hx:font-bold hx:leading-none hx:tracking-tighter hx:md:text-5xl hx:py-2 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400"
+  
+>
+  UiPath Data Service <br class="hx:sm:block hx:hidden" />for no-code data modelling
+</h1>
+
+</div>
+<div class="hx:mb-12">
+<p
+  class="not-prose hx:text-xl hx:text-gray-600 hx:dark:text-gray-400 hx:sm:text-xl"
+  
+>
+  UiPath® Data Service is a persistent data storage service that brings <br class="hx:sm:block hx:hidden" />powerful no-code data modeling and storage capabilities to your automation
+</p>
+
+</div>
+<div class="hx:mb-6">
+<a
+  href="docs"
+  class="not-prose hx:font-medium hx:cursor-pointer hx:px-6 hx:py-3 hx:rounded-full hx:text-center hx:text-white hx:inline-block hx:bg-primary-600 hx:hover:bg-primary-700 hx:focus:outline-hidden hx:focus:ring-4 hx:focus:ring-primary-300 hx:dark:bg-primary-600 hx:dark:hover:bg-primary-700 hx:dark:focus:ring-primary-800 hx:transition-all hx:ease-in hx:duration-200"
+  
+  >Release Notes</a>
+</div>
+<div class="hx:mb-6">
+<a
+  href="docs"
+  class="not-prose hx:font-medium hx:cursor-pointer hx:px-6 hx:py-3 hx:rounded-full hx:text-center hx:text-white hx:inline-block hx:bg-primary-600 hx:hover:bg-primary-700 hx:focus:outline-hidden hx:focus:ring-4 hx:focus:ring-primary-300 hx:dark:bg-primary-600 hx:dark:hover:bg-primary-700 hx:dark:focus:ring-primary-800 hx:transition-all hx:ease-in hx:duration-200"
+  
+  >User Guide</a>
+</div>
+<div class="hx:mb-6">
+<a
+  href="docs"
+  class="not-prose hx:font-medium hx:cursor-pointer hx:px-6 hx:py-3 hx:rounded-full hx:text-center hx:text-white hx:inline-block hx:bg-primary-600 hx:hover:bg-primary-700 hx:focus:outline-hidden hx:focus:ring-4 hx:focus:ring-primary-300 hx:dark:bg-primary-600 hx:dark:hover:bg-primary-700 hx:dark:focus:ring-primary-800 hx:transition-all hx:ease-in hx:duration-200"
+  
+  >API Guide</a>
+</div>
+<div class="hx:mt-6"></div>
+      </div>
+    </div>
+  </div>
+
+      <footer class="hextra-footer hx:bg-gray-100 hx:pb-[env(safe-area-inset-bottom)] hx:dark:bg-neutral-900 hx:print:bg-transparent"><div class="hx:mx-auto hx:flex hx:gap-2 hx:py-2 hx:px-4 hx:max-w-screen-xl"><button
+  title="Change theme"
+  data-theme="light"
+  class="theme-toggle hx:cursor-pointer hx:group hx:h-7 hx:rounded-md hx:px-2 hx:text-left hx:text-xs hx:font-medium hx:text-gray-600 hx:transition-colors hx:dark:text-gray-400 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50"
+  type="button"
+  aria-label="Change theme"
+>
+  <div class="hx:flex hx:items-center hx:gap-2 hx:capitalize"><svg height=12 class="hx:group-data-[theme=light]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg><span class="hx:group-data-[theme=light]:hidden">Light</span><svg height=12 class="hx:group-data-[theme=dark]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg><span class="hx:group-data-[theme=dark]:hidden">Dark</span></div>
+</button>
+</div><hr class="hx:border-gray-200 hx:dark:border-neutral-800" /><div
+      class="hextra-custom-footer hx:max-w-screen-xl hx:mx-auto hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-right),1.5rem)] hx:text-gray-600 hx:dark:text-gray-400"
+    ></div><div
+        class="hx:max-w-screen-xl hx:mx-auto hx:flex hx:justify-center hx:py-12 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-right),1.5rem)] hx:text-gray-600 hx:dark:text-gray-400 hx:md:justify-start"
+      >
+        <div class="hx:flex hx:w-full hx:flex-col hx:items-center hx:sm:items-start"><div class="hx:font-semibold"><a class="hx:flex hx:text-sm hx:items-center hx:gap-1 hx:text-current" target="_blank" rel="noopener noreferrer" title="Hextra GitHub Homepage" href="https://github.com/imfing/hextra">
+    <span>Powered by Hextra<svg height=1em class="hx:inline-block hx:ltr:ml-1 hx:rtl:mr-1 hx:align-[-2.5px]" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="m 105.50024,22.224647 c -9.59169,-5.537563 -21.40871,-5.537563 -31.000093,0 L 39.054693,42.689119 C 29.463353,48.226675 23.55484,58.460531 23.55484,69.535642 v 40.928918 c 0,11.07542 5.908513,21.3092 15.499853,26.84652 l 35.445453,20.46446 c 9.591313,5.53732 21.408404,5.53732 31.000094,0 l 35.44507,-20.46446 c 9.59131,-5.53732 15.49985,-15.7711 15.49985,-26.84652 V 69.535642 c 0,-11.075111 -5.90854,-21.308967 -15.49985,-26.846523 z M 34.112797,85.737639 c -1.384445,2.397827 -1.384445,5.352099 0,7.749927 l 24.781554,42.922974 c 1.38437,2.39783 3.942853,3.87496 6.711592,3.87496 h 49.563107 c 2.76905,0 5.3273,-1.47713 6.71144,-3.87496 l 24.78194,-42.922974 c 1.38414,-2.397828 1.38414,-5.3521 0,-7.749927 L 121.88049,42.814746 c -1.38414,-2.397828 -3.94239,-3.874964 -6.71144,-3.874964 H 65.605944 c -2.768739,0 -5.327223,1.477059 -6.711592,3.874964 z" style="stroke-width:0.774993" /></svg></span>
+  </a></div></div>
+      </div></footer>
+    
+    <script defer src="/my-hugo-website/js/main.js" integrity=""></script>
+<script defer src="/my-hugo-website/js/flexsearch.9f5b5908f93ae86f1ecd4b043b799f580c2d1654e703dd9357d568ac41b2547a.js" integrity="sha256-n1tZCPk66G8ezUsEO3mfWAwtFlTnA92TV9VorEGyVHo=" crossorigin="anonymous"></script>
+        <script defer src="/my-hugo-website/en.search.js" integrity=""></script>
+  </body>
 </html>

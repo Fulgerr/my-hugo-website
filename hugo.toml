@@ -1,4 +1,17 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://fulgerr.github.io/my-hugo-website'
 languageCode = 'en-us'
-theme = "papermod"
-title = 'My New Hugo Site'
+theme = "hextra"
+title = 'UiPath Documentation'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  # ... other params ...
+
+  [params.theme]
+    gitRepo = "https://github.com/Fulgerr/my-hugo-website/"
+    gitBranch = "main"
+    [params.theme.editURL]
+      enable = true

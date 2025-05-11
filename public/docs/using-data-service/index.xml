@@ -1,0 +1,65 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UiPath Documentation – Using Data Service</title>
+    <link>http://localhost:1313/my-hugo-website/docs/using-data-service/</link>
+    <description>Recent content in Using Data Service on UiPath Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:1313/my-hugo-website/docs/using-data-service/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Creating Relationships</title>
+      <link>http://localhost:1313/my-hugo-website/docs/using-data-service/creating-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/my-hugo-website/docs/using-data-service/creating-relationships/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;Creating Relationships&lt;/h1&gt;&lt;p&gt;Follow these steps to create a relationship between your entities.&lt;/p&gt;
+&lt;p&gt;In the Entities list, select the entity for which you want to add a relationship.In the Fields tab, click Create New Field.In the Create Field panel enter a Display Name in the corresponding field.Select Relationship from the Type drop-down list.Select the entity to which you want to create a relationship from the Related Entity drop-down list.Select the display field to be shown in the user interface from the Related Entity Display Field drop-down list.Click Save.&lt;/p&gt;
+&lt;p&gt;The relationship is added as a new field in the Fields tab.When adding data you can select values from the related entity.Click View Entry Data to display the Data tab of the related entity in a new browser tab.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/my-hugo-website/docs/using-data-service/advanced-search-in-entity-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/my-hugo-website/docs/using-data-service/advanced-search-in-entity-data/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;Advanced Search in Entity Data&lt;/h1&gt;&lt;p&gt;Entities contain a large amount of data which can be difficult to navigate and query.&lt;/p&gt;
+&lt;p&gt;The advanced search feature allows you to find any entity data, by querying any of the data fields.&lt;/p&gt;
+&lt;h2&gt;Roles&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;roles&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#roles&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You need the Data Reader role to see and query entity data. See more details on how to Manage access.&lt;/p&gt;
+&lt;h2&gt;Searching for Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;searching-for-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#searching-for-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To use the Search in field:Navigate to the Data tab of the desired entity in Data Service. From the Search in: dropdown, select the entity fields you want to retrieve results from.The search algorithm looks up number and text data-type fields.In the Search field, enter the search string. The grid displays the queried results. To apply more filters on your results list, click Advanced Search. This opens the Advanced Search panel on the right-hand side.&lt;/p&gt;
+&lt;p&gt;To use Advanced Search:Select the operator:AND - to return the entries that match all conditionsOR - to return the entries that match any of the conditionsDefine the conditions:Column - select the entity field to apply your condition to. Condition - select the condition. Value - enter the value for your condition. The value must be of the same type as the field type. For example, use strings for Text fields, use integers for Number fields. Click Add to add as many conditions as you need.To remove a conditions, click the corresponding Delete icon.Click Save to rerun the search. The page refreshes with the new results.&lt;/p&gt;
+&lt;h2&gt;Editing an Advanced Search Query&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;editing-an-advanced-search-query&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#editing-an-advanced-search-query&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Click the Edit icon.&lt;/li&gt;
+&lt;li&gt;Add new conditions, remove or update existing conditions.&lt;/li&gt;
+&lt;li&gt;Click Save to rerun the search.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To clear the search results, click Basic search or Clear search.&lt;/p&gt;
+&lt;p&gt;Creating a new query removes the currently saved one.&lt;/p&gt;
+&lt;h2&gt;Sharing the Advanced Search Query&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;sharing-the-advanced-search-query&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#sharing-the-advanced-search-query&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To share the query results with other Data Service users, click Copy link to Query.&lt;/p&gt;
+&lt;p&gt;The search query is user-specific, and other users can see the query results provided they have read permissions on the queried entity.Both the query and the query link are persisted across sessions after a Copy link to Query operation has been used.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

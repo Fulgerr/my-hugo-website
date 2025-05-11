@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title> | My New Hugo Site</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1>My New Hugo Site</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1></h1>
+
+  
+  
+  <time datetime="0001-01-01T00:00:00&#43;00:00">January 1, 1</time>
+
+  <h1 id="api-access">API Access</h1>
+<h2 id="overview">Overview</h2>
+<p>Data Service Open API allows you to manage UiPath Data Service resources from an external application of your choice, and does so by enabling you to authorize the external app without sharing any credentials, through the Oauth 2.0 authorization framework.</p>
+<p>Learn how to register the external application in UiPath® Automation Suite.</p>
+<h2 id="api-permissions">API Permissions</h2>
+<p>To use the Data Service OpenAPI, you must grant API permissions to the external application. These API permissions are known as scopes, and there are three types for Data Service:</p>
+<ul>
+<li>DataService.Schema.Read - this User Scope allows your external app to read your tenant&rsquo;s Data Service schema, and it&rsquo;s dependent on the user&rsquo;s permissions.</li>
+<li>DataService.Data.Read - this User Scope allows your external app to read your tenant&rsquo;s Data Service data, and it&rsquo;s dependent on the user&rsquo;s permissions.</li>
+<li>DataService.Data.Write - this User Scope allows your external app to edit your tenant&rsquo;s Data Service data by deleting, updating or creating new data, and it&rsquo;s dependent on the user&rsquo;s permissions.</li>
+</ul>
+<p>Learn more about the user roles and permissions in Data Service.</p>
+<h2 id="download-the-openapi-specification">Download the OpenAPI Specification</h2>
+<p>With your external application and the user permissions set, it&rsquo;s time to download the OpenAPI specification of your tenant&rsquo;s Data Service data. Do so by navigating to the top-right menu on the tenant&rsquo;s Data Service tab &gt; API Access &gt; Download OpenAPI file (JSON).</p>
+<p>This will get you the OpenAPI 3.0 specifications of your tenant&rsquo;s Data Service entities, in JSON format. Clicking Copy OpenAPI link copies the API endpoint that generates the tenant&rsquo;s Data Service OpenAPI specification.</p>
+<h2 id="authorizing-the-api-calls">Authorizing the API Calls</h2>
+<p>To access the user-scoped resources of Data Service, authorize your external application with one of the following methods:</p>
+<ul>
+<li>Authorization Code (for confidential external apps)</li>
+<li>Authorization Code with PCKE (for non-confidential external apps)</li>
+</ul>
+<h2 id="api-endpoints">API Endpoints</h2>
+<p>OAuth2.0 authorization framework helps you generate a access token that allows your external application to make REST API calls to Data Service endpoints, for a limited time (one hour).</p>
+<p>To continue calling the APIs you need to generate a new access token or request a refresh token.</p>
+<p>A Data Service API endpoint has the following syntax:</p>
+<ul>
+<li>HTTP method + BaseURL + The resource category + The Data Service entity + The Operation + Path variables and query parameters Data Service Entity Example To describe each API request/response body, we are using the Olympics entity fields created in the Data Service. While we document the generic endpoint, such as Get Entity Records, your endpoint contains the exact name of your entity (for example, Get Olympics Records). The response and request bodies include all the fields from your entity, replicating the entity&rsquo;s structure. Further, let&rsquo;s use the Data Service API guide to dive into each endpoint and discover how you can put it to good use.</li>
+</ul>
+
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2025. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

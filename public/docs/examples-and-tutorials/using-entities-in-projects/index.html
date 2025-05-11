@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title> | My New Hugo Site</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1>My New Hugo Site</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1></h1>
+
+  
+  
+  <time datetime="0001-01-01T00:00:00&#43;00:00">January 1, 1</time>
+
+  <h1 id="using-entities-in-projects">Using Entities in Projects</h1>
+<p>By using entities created in Data Service, you can manage and manipulate data aggregated in a single object, without having to work with it in a granular way. To do so you need Studio v2020.8 or later.</p>
+<p>The following example retrieves data about Olympics games and medals for the top 10 countries for each category of games, together with the medals they won.</p>
+<p>Download example</p>
+<h2 id="entities-in-data-service">Entities in Data Service</h2>
+<p>Following the steps detailed on the Creating an Entity page, we created an entity for storing information about participating nations, the opening and closing dates, and the medals they won.</p>
+<p>The Olympics entity has the following fields: Name, Nations, Opening, and Closing Dates. The Medals entity has the following fields: Country, Gold, Silver, Bronze, and the total number of medals. The two entities are linked to each other with the Relationship tag.</p>
+<p><img src="/images/1607961-relation=GUID-A14D0C8B-D10D-4826-BEAE-2059763616F5=1=en=Default.png" alt="1607961-relation=GUID-A14D0C8B-D10D-4826-BEAE-2059763616F5=1=en=Default"></p>
+<h2 id="entities-imported-in-studio">Entities Imported in Studio</h2>
+<p>Import the entity inside your workflow in Studio.</p>
+<p>The following workflow scrapes information about a certain Olympics edition, maps data to arguments, and passes them along to the main workflow.</p>
+<p><img src="/images/0192c4e-main_outEntities=GUID-0F2F8D05-0B97-4827-AFB4-EFCBB24514F5=1=en=Default.png" alt="0192c4e-main_outEntities=GUID-0F2F8D05-0B97-4827-AFB4-EFCBB24514F5=1=en=Default"></p>
+<p>To do so we defined an argument for each type of information that we are collecting, thus resulting in 5 imported arguments.</p>
+<p><img src="/images/5f87fd0-no_entities=GUID-1B8AB35B-8FE8-4309-901B-B21E4895DE72=1=en=Default.png" alt="5f87fd0-no_entities=GUID-1B8AB35B-8FE8-4309-901B-B21E4895DE72=1=en=Default"></p>
+<p>With the use of entities, we only need to import and work with two arguments to collect the data.</p>
+<p>Entities must be initialized using the New Operator, read from Data Service or passed through an input argument in a workflow before usage, otherwise assigning or reading their values can cause errors.</p>
+<p><img src="/images/2e0cfa8-entities_invoked=GUID-03F2EDA2-0F8C-42CE-B322-AD359DE89E45=1=en=Default.png" alt="2e0cfa8-entities_invoked=GUID-03F2EDA2-0F8C-42CE-B322-AD359DE89E45=1=en=Default"></p>
+<p>The collected data is mapped to the two arguments inOlympics Year and outOlympics and their respective properties, the same as the fields defined in the entity. By using entities we&rsquo;re reduced the number of arguments needed for passing along information by properly mapping data to their respective entity fields.</p>
+<h2 id="create-data-records">Create Data Records</h2>
+<p>Once the data was collected, you can use the Create Entity Record activity to add the information to Data Service.</p>
+<p>In this example, we used the imported arguments to pass the collected information to Data Service. The Input and Output records are the values of variables of type Olympics used for passing along the data.</p>
+<p><img src="/images/2c1c599-create_entity=GUID-BB045D8E-E662-4E29-84E5-EEB7047B5E69=1=en=Default.png" alt="2c1c599-create_entity=GUID-BB045D8E-E662-4E29-84E5-EEB7047B5E69=1=en=Default"></p>
+<p>After running the project, the following record was created in Data Service:</p>
+<p><img src="/images/440b646-created=GUID-21899B89-F2F5-4D00-B52A-E246C433EA65=1=en=Default.png" alt="440b646-created=GUID-21899B89-F2F5-4D00-B52A-E246C433EA65=1=en=Default"></p>
+<h3 id="create-records-with-structured-data">Create Records With Structured Data</h3>
+<p>Records structured in a data table can be passed along to Data Service using the For Each Row activity. In this example, we&rsquo;re invoking a workflow that collects structured data on the number of medals won by each country and passes these records along to Data Service.</p>
+<p><img src="/images/b451d85-data_table=GUID-A3C07DC0-3BA9-4DB0-B9D2-E2FB016D856F=1=en=Default.png" alt="b451d85-data_table=GUID-A3C07DC0-3BA9-4DB0-B9D2-E2FB016D856F=1=en=Default"></p>
+<p>After running the workflow, the following data is stored in Data Service:</p>
+<p><img src="/images/78b2ef9-medals=GUID-C40DF163-3AF7-4984-AF60-B01E480EE3A7=1=en=Default.png" alt="78b2ef9-medals=GUID-C40DF163-3AF7-4984-AF60-B01E480EE3A7=1=en=Default"></p>
+<p>The relationship set between the Olympics and Medals entities allows us to use the data record from one in the other. For example, the value of the Olympics field inside the Medal entity is the same as in the related entity.</p>
+<h2 id="query-related-records">Query Related Records</h2>
+<p>The Query Entity Records activity can be used to pull up a list of records from Data Service. In the following example, we use the activity to query data records from the Olympics entity, allow the user to choose an Olympics edition, and from the Medals entity write the number of medals that each participating country won.</p>
+<p><img src="/images/2ee2593-query=GUID-DDBF2FE6-8375-4306-BF09-9A3FFF0C7DF4=1=en=Default.gif" alt="2ee2593-query=GUID-DDBF2FE6-8375-4306-BF09-9A3FFF0C7DF4=1=en=Default"></p>
+<p>For querying the Olympics table, we&rsquo;ve used the Name != NULL condition from the Query Builder. This goes through all records from the Name column and outputs them in the listOlympics variable to be used in the Input Dialog activity.</p>
+<p>To show the list of records as options, we&rsquo;ve used the following Lambda expressionlistOlympics.Select(Function (o as Olympics) o.Name).ToArray in the Input Dialog activity. Alternatively, the For Each activity can be used.</p>
+<p>The selection is mapped to the selectedOlympics variable and used in another Query Entity Records activity for going through the list of medals won at that specific edition. This condition was set by using the equals option in the Query Builder.</p>
+<p><img src="/images/c601e5e-query_condition=GUID-AA10FD60-43EE-444B-BF21-411413D69F50=1=en=Default.png" alt="c601e5e-query_condition=GUID-AA10FD60-43EE-444B-BF21-411413D69F50=1=en=Default"></p>
+<p>The query can be performed on the selected entity, and on related entity records as well.</p>
+<h3 id="pagination">Pagination</h3>
+<p>Data services can potentially store a large number of records. To query only a certain number of records, use the Pagination properties from the Query Entities Records activity. The Top property supports a maximum number of 1,000, this means that 1,000 records can be queried at a time.</p>
+<p>This example queries the first five records, and then the next five records until the last records on the list are grabbed.</p>
+<p><img src="/images/77ad7dc-pagination=GUID-F7248066-56DF-4151-B83A-17CAC657DBC4=1=en=Default.png" alt="77ad7dc-pagination=GUID-F7248066-56DF-4151-B83A-17CAC657DBC4=1=en=Default"></p>
+<p>To perform this, the skip Int64 variable was assigned the initial value of 0, and then its value is incremented after each loop until the last record is grabbed.</p>
+<p><img src="/images/98f6081-skip=GUID-BE101BCD-6AF6-459F-B97A-5F3CDA88A10C=1=en=Default.png" alt="98f6081-skip=GUID-BE101BCD-6AF6-459F-B97A-5F3CDA88A10C=1=en=Default"></p>
+<p>After the first five medals are grabbed, the For Each activity is used for writing the participating countries and the number of medals they won to the Notepad file.</p>
+<h2 id="update-entity-schema">Update Entity Schema</h2>
+<p>The following scenario explains the steps for updating an entity schema in Data Service and then syncing the data with Studio.</p>
+<p>In Data Service, go to the Medals entity, click Create New Field, and add a new column HostCountry of type Yes/No. Click Save.</p>
+<p><img src="/images/0c955cf-update=GUID-958884C0-A565-48A8-A078-5584992C8AA4=1=en=Default.png" alt="0c955cf-update=GUID-958884C0-A565-48A8-A078-5584992C8AA4=1=en=Default"></p>
+<p>In Studio, click on Manage Entities, and then the Refresh button. A change was detected for the Medals entity, as illustrated in the Changes column. Click Save and the entity is updated in Studio.</p>
+<p><img src="/images/b4b5a67-update=GUID-C619BE51-962E-4E46-A264-586784B7DC15=1=en=Default.gif" alt="b4b5a67-update=GUID-C619BE51-962E-4E46-A264-586784B7DC15=1=en=Default"></p>
+<h2 id="query-and-update-records">Query and Update Records</h2>
+<p>The Update Entity Record activity can be used for updating records from your workflow directly into Data Service.</p>
+<p>In this example, we&rsquo;re querying certain records from the Medals entity and updating them automatically using the aforementioned activity.</p>
+<p>In the Medals entity, the hosting country of each edition is marked with an asterisk next to its name. For example, for the 2012 edition, the hosting country is recorded as Great Britain (GBR)* in the Olympics column.</p>
+<p><img src="/images/5f2e984-update2=GUID-FB5FAAEE-832F-4F54-9022-708E0EF55134=1=en=Default.png" alt="5f2e984-update2=GUID-FB5FAAEE-832F-4F54-9022-708E0EF55134=1=en=Default"></p>
+<p>Using the Query Entity Records activity, we go through all records that contain the asterisk (*), grab the records in the listMedals variable and use the For Each activity to loop through each item and assign the True value in the HostCountry column next to the country that hosted a particular edition.</p>
+<p>The Update Entity Record activity can be used in numerous other scenarios for passing along data and updating records in Data Service.</p>
+
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2025. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

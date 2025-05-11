@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title> | My New Hugo Site</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1>My New Hugo Site</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1></h1>
+
+  
+  
+  <time datetime="0001-01-01T00:00:00&#43;00:00">January 1, 1</time>
+
+  <h1 id="system-user-entity">System User Entity</h1>
+<p>The System User entity holds all the users, groups, and robot accounts available in your tenant.</p>
+<p>A banner asking you to upgrade is displayed when you access any entity created prior to the release of the System User entity:</p>
+<p><img src="/images/db6125f-upgrade_entity=GUID-D9A29036-4B35-4A40-B4C3-AC5ACD2619BC=1=en=Default.png" alt="db6125f-upgrade_entity=GUID-D9A29036-4B35-4A40-B4C3-AC5ACD2619BC=1=en=Default"></p>
+<p>The upgrading process converts the type of Created By and Modified By fields from UniqueId to Relationship.</p>
+<p><img src="/images/3162c91-difference_in_fields=GUID-7280B99A-1DAC-4AF1-B785-091AC866BCCA=1=en=Default.png" alt="3162c91-difference_in_fields=GUID-7280B99A-1DAC-4AF1-B785-091AC866BCCA=1=en=Default"></p>
+<p>Processes using Created By and Updated By fields must be updated to query the relationship to identify users that created or modified the records, and use the latest version of Data Service activities.</p>
+<p>BehaviorEntity records are synchronized with organization users and they are updated periodically. The System User entity cannot be deleted or modified by any user. Modifying data in the System User entity is possible only by submitting a service request. Users, groups, or robots are mapped in other entities by relating to the System User entity through a Relationship field type; Created By and Updated By system built-in fields are populated by the records of the System User entity. Records created by users who were removed from your organization prior to the System User update display Deleted User for Created By and Updated By fields.</p>
+<p>User Type Choice SetThe System User entity has a predefined choice set (i.e., User Type) that populates the entity Type field with the following values:UserGroupRobotThe Robot option is available only for Robot Accounts.The User Type choice set cannot be deleted or modified by any user.</p>
+<p>System User entity fieldsEntity FieldData TypeDescriptionIdIdentifierThe ID of the user or group in your tenant.Is the same ID from Identity Server.Create TimeDate-TimeThe creation time of the user or group.EmailEmailThe email of the user. For groups, this field is left blank.IsActiveYes/NoFlag indicating if the user is active in your tenant. Set to Yes if the user is active.Set to No if the user was removed from the Identity Server.NameTextThe name of the user or group.If the user does not have a name set, the field displays the email.TypeChoice SetThe entity record type, populated by the User Type choice set.Update TimeDate-TimeThe last time the user or group got updated.</p>
+
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2025. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

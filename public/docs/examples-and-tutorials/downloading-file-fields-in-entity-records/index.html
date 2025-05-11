@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title> | My New Hugo Site</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1>My New Hugo Site</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1></h1>
+
+  
+  
+  <time datetime="0001-01-01T00:00:00&#43;00:00">January 1, 1</time>
+
+  <h1 id="downloading-file-fields-in-entity-records">Downloading File Fields in Entity Records</h1>
+<p>Using Studio you can easily manipulate specific files of an entity record. These activities allow you to execute operations such as upload, download, or delete specified files of a specified field of an entity record.</p>
+<p>The following example demonstrates how to automatically download from Data Service a specified file containing information from the Olympics games extracted from Wikipedia pages in order to use it for other operations.</p>
+<p>Download example</p>
+<h2 id="prerequisite-create-entities-in-data-service">Prerequisite: Create Entities in Data Service</h2>
+<p>Following the steps detailed on the Creating an Entity page, we created an entity for storing information about the Olympic games.</p>
+<p>The Olympics entity has the following fields: Name (text) and Logo (file).</p>
+<p>Check out the following pages:</p>
+<ul>
+<li>the Upload File activity as it contains details about how to use this activity to easily upload the logos;</li>
+<li>the File page as it provides details on how to upload logos from the platform. System built-in fields are automatically added to your entity in order to provide details about its creation.</li>
+</ul>
+<h2 id="step-1-build-the-workflow">Step 1: Build the Workflow</h2>
+<h3 id="query-related-records">Query Related Records</h3>
+<p>We use the Query Entity Records activity to pull up a list of records from the Olympics entity from Data Service by setting up the folder variable. This goes through all records from the Name field and outputs them in the olympicsRecords variable to be used in the following Input Dialog activity.</p>
+<p><img src="/images/e897597-Screenshot_8=GUID-253D09F1-2C6F-479B-AACF-89E2EA58F086=1=en=Default.png" alt="e897597-Screenshot_8=GUID-253D09F1-2C6F-479B-AACF-89E2EA58F086=1=en=Default"></p>
+<h3 id="create-an-input-dialog-box">Create an Input Dialog Box</h3>
+<p>Add the Input Dialog activity to display a dialog box containing the Select label message and a Multiple choice Input Type. In the Input array add the olympicsRecords variable created previously for the Query Entity Records activity for which you&rsquo;ll apply the following function: olympicsRecords.Select(Function (o as Olympics) o.Name).ToArray to set up the array of options to choose from.</p>
+<p>Set up the selectedOlympics variable to gather the output results.</p>
+<p><img src="/images/2a44866-Screenshot_1=GUID-D7D9B0C7-6667-4AFC-9EFC-B214FD728EEC=1=en=Default.png" alt="2a44866-Screenshot_1=GUID-D7D9B0C7-6667-4AFC-9EFC-B214FD728EEC=1=en=Default"></p>
+<h3 id="assign-a-value-to-the-file">Assign a Value to the File</h3>
+<p>Use the Assign activity to assign the  olympicsRecords.First(Function (o as Olympics) o.Name = selectedOlympics) variable created previously in the Input Dialogue activity to the new olympicEdition variable.</p>
+<p><img src="/images/83da35f-Screenshot_1=GUID-BBA85BBA-8D9A-47AC-A436-FA84578D95C6=1=en=Default.png" alt="83da35f-Screenshot_1=GUID-BBA85BBA-8D9A-47AC-A436-FA84578D95C6=1=en=Default"></p>
+<h3 id="set-up-a-select-folder-dialogue-box">Set up a Select Folder Dialogue Box</h3>
+<p>Add the Select Folder variable to open a dialog box and create the folder variable for the output folder path. You&rsquo;ll use this variable in the following Download File from Record Field activity.</p>
+<p><img src="/images/5df251c-Screenshot_2=GUID-C94CD2FA-A359-46A6-8CE2-D3FF6F37B81D=1=en=Default.png" alt="5df251c-Screenshot_2=GUID-C94CD2FA-A359-46A6-8CE2-D3FF6F37B81D=1=en=Default"></p>
+<h3 id="download-file-from-record-field">Download File From Record Field</h3>
+<p>Use the Download File from Record Field activity to download the folder file from the Logo file of the olympicEdition.Id entity record.</p>
+<p><img src="/images/4c5ee39-Screenshot_3=GUID-79BB0218-FF53-4FAB-822D-F6C0042DAD64=1=en=Default.png" alt="4c5ee39-Screenshot_3=GUID-79BB0218-FF53-4FAB-822D-F6C0042DAD64=1=en=Default"></p>
+<h3 id="set-up-a-power-shell-command">Set up a Power Shell Command</h3>
+<p>Add the Invoke Power Shell activity to execute the following command line: Path.Combine(folder, olympicEdition.Logo.Name) in order to combine the following input parameters: folder and olympicEditionvariables and the Logo and Name fields created within the Olympics entity.</p>
+<p>The purpose of this activity is to invoke the full path of the file and open it in the default photo viewer or editor.</p>
+<p><img src="/images/731dbd3-Screenshot_4=GUID-12A32B8D-66F5-488B-ABF2-D4E162ED705C=1=en=Default.png" alt="731dbd3-Screenshot_4=GUID-12A32B8D-66F5-488B-ABF2-D4E162ED705C=1=en=Default"></p>
+<h3 id="untitled-topic-11121803">Untitled Topic 11121803</h3>
+
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2025. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

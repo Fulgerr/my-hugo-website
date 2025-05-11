@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title> | My New Hugo Site</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1>My New Hugo Site</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1></h1>
+
+  
+  
+  <time datetime="0001-01-01T00:00:00&#43;00:00">January 1, 1</time>
+
+  <h1 id="uploading-file-fields-in-entity-records">Uploading File Fields in Entity Records</h1>
+<p>Using Studio you can easily manipulate specific files of an entity record. These activities allow you to execute operations such as upload, download, or delete specified files of a specified field of an entity record.</p>
+<p>The maximum size of a single file cannot exceed 10 MB, otherwise unexpected behavior might occur.</p>
+<p>The following example contains a main XAML demonstrating how to upload a file to Data Service, after downloading it from Olympics games related Wikipedia pages.</p>
+<p>Download example</p>
+<h2 id="prerequisite-step-1-create-entities-in-data-service">Prerequisite Step 1: Create Entities in Data Service</h2>
+<p>Following the steps detailed on the Creating an Entity page, we created an entity for storing information about the Olympic games.</p>
+<p>The Olympics entity has the following fields: Name (text) and Logo (file).</p>
+<p>System built-in fields are automatically added to your entity in order to provide details about its creation.</p>
+<p><img src="/images/2ded0c8-Screenshot_2=GUID-5E2F09BA-AD3D-4644-90C4-7EA3C133D231=1=en=Default.png" alt="2ded0c8-Screenshot_2=GUID-5E2F09BA-AD3D-4644-90C4-7EA3C133D231=1=en=Default"></p>
+<h2 id="prerequisite-step-2-import-the-entities-in-studio">Prerequisite Step 2: Import the Entities in Studio</h2>
+<p>Import the entity inside your workflow in Studio.</p>
+<p>The following workflow scrapes information and images about a certain Olympics edition, maps the found data to arguments, and passes them along to the main workflow.</p>
+<p><img src="/images/18d019f-72829aa-Main=GUID-1742C5A2-61E7-49FC-840B-91278ABBE91B=1=en=Default.jpg" alt="18d019f-72829aa-Main=GUID-1742C5A2-61E7-49FC-840B-91278ABBE91B=1=en=Default"></p>
+<h2 id="step-3-build-the-workflow">Step 3: Build the Workflow</h2>
+<h3 id="query-related-records">Query Related Records</h3>
+<p>We&rsquo;ll use the Query Entity Records activity to pull up a list of records from the Olympics entity from Data Service by setting up the name variable. This goes through all records from the Name field and outputs them in the existingRecords variable to be used in the following If activity.</p>
+<p><img src="/images/8934c78-Screenshot_4=GUID-4EFC297B-912E-4714-81BC-9077D51AB5CC=1=en=Default.png" alt="8934c78-Screenshot_4=GUID-4EFC297B-912E-4714-81BC-9077D51AB5CC=1=en=Default"></p>
+<h3 id="if">If</h3>
+<p>Add the If activity allows us to take one of the following two different courses of action, depending on whether the cont for the existingRecords variable is 0 or not:</p>
+<p><img src="/images/91305ca-Main=GUID-4FC81018-0E24-484C-ACB6-340F2E902EED=1=en=Default.jpg" alt="91305ca-Main=GUID-4FC81018-0E24-484C-ACB6-340F2E902EED=1=en=Default"></p>
+<ol>
+<li>
+<p>If a record does not exist, create it and assign values to itIf no records are found meaning that the existingRecords=0 condition is met, create a new Sequence, use the Multiple Assign activity to assign values to the olympics and olympics.Name variables and the Create Entity Record activity to add the collected information to Data Service.You can use the information available in the Using Entities in Projects page Create Data Records section example.</p>
+</li>
+<li>
+<p>If a record already exists, assign values to itIf a record is found, meaning that the existingRecords=0 condition is not met, use the Assign or Multiple Assign activity to assign the value to the existingRecords variable.</p>
+</li>
+</ol>
+<h3 id="upload-file-to-record-field">Upload File to Record Field</h3>
+<p>We use the Upload File to Record Field activity and upload the created file to the Logo field from the Olympics entity record.</p>
+<p><img src="/images/c5232ff-Screenshot_3=GUID-E8C85295-87DE-46D2-A78E-3604F7E17757=1=en=Default.png" alt="c5232ff-Screenshot_3=GUID-E8C85295-87DE-46D2-A78E-3604F7E17757=1=en=Default"></p>
+<h3 id="delete-the-local-file">Delete the Local File</h3>
+<p>Remove the file that was downloaded locally from Wikipedia to our machine after uploading it to Data Service by using the Delete activity.</p>
+<p><img src="/images/426eb5e-Screenshot_1=GUID-6E0D87B5-DDC0-4912-A301-60E7DE5F2090=1=en=Default.png" alt="426eb5e-Screenshot_1=GUID-6E0D87B5-DDC0-4912-A301-60E7DE5F2090=1=en=Default"></p>
+<h3 id="display-the-value-of-the-variable-in-the-output-panel">Display the Value of the Variable in the Output Panel</h3>
+<p>Add the Write Line to display the value of the string variable, for this example we&rsquo;ve added the olympics.Name, to the Output panel.</p>
+<p><img src="/images/1a06cbd-Screenshot_2=GUID-3F4B5512-8872-4B4F-9083-EFEDDC492C52=1=en=Default.png" alt="1a06cbd-Screenshot_2=GUID-3F4B5512-8872-4B4F-9083-EFEDDC492C52=1=en=Default"></p>
+<p>Once finished, your project should look like this:</p>
+<p><img src="/images/8c2ecaf-DS-1=GUID-BD77F240-C747-4451-A7E6-13F110A61EBE=1=en=Default.png" alt="8c2ecaf-DS-1=GUID-BD77F240-C747-4451-A7E6-13F110A61EBE=1=en=Default"></p>
+
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2025. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

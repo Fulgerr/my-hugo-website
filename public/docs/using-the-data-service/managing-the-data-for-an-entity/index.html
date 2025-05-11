@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title> | My New Hugo Site</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1>My New Hugo Site</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1></h1>
+
+  
+  
+  <time datetime="0001-01-01T00:00:00&#43;00:00">January 1, 1</time>
+
+  <h1 id="managing-the-data-for-an-entity">Managing the Data for an Entity</h1>
+<p>You can import the entity in UiPath® Studio and use it in your process to create data.
+However, you can add, manage, and delete basic data to entities in Data Service by
+following the below steps:</p>
+<h2 id="adding-data">Adding Data</h2>
+<p>To add new data to an entity follow the below steps:</p>
+<p>Click on the entity for which you want to add more data.
+Access the Data tab.Click Add New Data.In the Add Data panel add a value for each field that you have defined for the entity.Click Save.A new data record is displayed in the Data tab.</p>
+<h2 id="importing-data-using-a-csv-file">Importing data using a CSV file</h2>
+<p>You need Read and Create permissions for the entity to which you intend to import data.Importing is not supported for relationship fields, choice sets, and auto-number field data. To enable data import, ensure these fields are designed as non-required.Importing is not supported in the Mozilla Firefox web browser.To add new data to an existing entity:</p>
+<p>Navigate to the entity where to want to import data.In the Fields or Data tab of the selected entity, click Import data. The File explorer window opens.Browse for the CSV file containing the data you want to import.Columns in the CSV file must have the same display name as the fields of the entity for which you import the data.If you previously selected the same file for import, a pop-up message asks you for confirmation.</p>
+<h3 id="prerequisites-for-the-csv-file">Prerequisites for the CSV file</h3>
+<p>To ensure the successful outcome of the import operation, your CSV file must meet the following prerequisites:</p>
+<p>The CSV file must be saved as one of the following types:CSV (Comma delimited) (<em>.csv)CSV (MS-DOS) (</em>.csv)CSV (UTF-8) (*.csv)The column separator in the CSV file must be a comma.The CSV file must be of maximum 10 MB.The CSV file must contain maximum 30,000 entries.Columns in the CSV file must match the display name of the entity fields.Columns in the CSV file must match the field data type. For example, for a Text type field, the column in the CSV must contain text.Columns in the CSV file must have values for entity fields marked as required.Columns in the CSV file corresponding to fields marked as unique in Data Service must not contain duplicate data.</p>
+<h3 id="import-successful">Import successful</h3>
+<p>The &ldquo;Import successful!&rdquo; pop-up informs you about the successful outcome of the import.</p>
+<p>The new records are displayed in a bold font.</p>
+<p>The system built-in Created By field displays the account that performed the first import, whereas the system built-in Created field displays the date of the first import. The Modified By and Modified fields provide details on the subsequent imports for the same entity.</p>
+<p>Default values are provided for fields where the data in the CSV file is missing.</p>
+<h3 id="import-failed">Import failed</h3>
+<p>The &ldquo;Failed to Import&rdquo; message box informs about the error causing the import to fail.</p>
+<p>In some cases, only several records fail at import, whereas the overall import is successful. You can access an output file containing the failed records for review.</p>
+<p>Failures caused by throttling may occur when more than 10 users are importing simultaneously. If this happens, attempt the import again.</p>
+<p>The overall import fails when:</p>
+<ul>
+<li>80 out of the first 100 records fail at import.</li>
+<li>network connectivity issues occur.</li>
+</ul>
+<p>If you cannot download the failed records file, request a copy by reaching out to support in maximum seven days. Provide the following data:Data and time of the importOrganization IDEntity IDUser email</p>
+<h2 id="update-the-entity-data">Update the Entity Data</h2>
+<p>To modify a data entry follow the steps below:You cannot change the value of the system built-in fields.</p>
+<p>In the Data tab select the checkbox in front of the data row you want to edit.Click the Edit available on the right-hand side of the screen.Apply the updates. Click Save.You can also modify a data entry inline by clicking on the field for a data row you want to edit. Make your changes and then click outside, or hit Enter to persist them.</p>
+<h2 id="deleting-data">Deleting Data</h2>
+<p>To delete a data record follow the below steps:</p>
+<p>In the Data tab select the checkbox in front of the data row you want to delete.Click the Delete icon available on the right-hand side of the screen.Click Delete in the Delete Data dialog to confirm the action.</p>
+<p>The data record is removed from the list of data records in the Data tab.</p>
+
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2025. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 May 2025 23:13:12 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Page One</title>
+      <link>http://localhost:1313/docs/another-section/page-one/</link>
+      <pubDate>Sun, 11 May 2025 23:13:12 +0300</pubDate>
+      <guid>http://localhost:1313/docs/another-section/page-one/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Getting Started</title>
+      <link>http://localhost:1313/docs/getting-started/</link>
+      <pubDate>Sun, 11 May 2025 23:13:11 +0300</pubDate>
+      <guid>http://localhost:1313/docs/getting-started/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Post 3</title>
+      <link>http://localhost:1313/posts/post-3/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-3/</guid>
+      <description>&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum. Deserunt esse cillum Lorem non magna adipisicing mollit amet consequat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post 2</title>
+      <link>http://localhost:1313/posts/post-2/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-2/</guid>
+      <description>&lt;p&gt;Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.&lt;/p&gt;&#xA;&lt;p&gt;Exercitation voluptate irure in irure tempor mollit Lorem nostrud ad officia. Velit id fugiat occaecat do tempor. Sit officia Lorem aliquip eu deserunt consectetur. Aute proident deserunt in nulla aliquip dolore ipsum Lorem ut cupidatat consectetur sit sint laborum. Esse cupidatat sit sint sunt tempor exercitation deserunt. Labore dolor duis laborum est do nisi ut veniam dolor et nostrud nostrud.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post 1</title>
+      <link>http://localhost:1313/posts/post-1/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-1/</guid>
+      <description>&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;&#xA;&lt;p&gt;Occaecat nulla excepteur dolore excepteur duis eiusmod ullamco officia anim in voluptate ea occaecat officia. Cillum sint esse velit ea officia minim fugiat. Elit ea esse id aliquip pariatur cupidatat id duis minim incididunt ea ea. Anim ut duis sunt nisi. Culpa cillum sit voluptate voluptate eiusmod dolor. Enim nisi Lorem ipsum irure est excepteur voluptate eu in enim nisi. Nostrud ipsum Lorem anim sint labore consequat do.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/examples-and-tutorials/downloading-file-fields-in-entity-records/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/examples-and-tutorials/downloading-file-fields-in-entity-records/</guid>
+      <description>&lt;h1 id=&#34;downloading-file-fields-in-entity-records&#34;&gt;Downloading File Fields in Entity Records&lt;/h1&gt;&#xA;&lt;p&gt;Using Studio you can easily manipulate specific files of an entity record. These activities allow you to execute operations such as upload, download, or delete specified files of a specified field of an entity record.&lt;/p&gt;&#xA;&lt;p&gt;The following example demonstrates how to automatically download from Data Service a specified file containing information from the Olympics games extracted from Wikipedia pages in order to use it for other operations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/examples-and-tutorials/uploading-data-from-csv-using-batch-activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/examples-and-tutorials/uploading-data-from-csv-using-batch-activities/</guid>
+      <description>&lt;h1 id=&#34;uploading-data-from-csv-using-batch-activities&#34;&gt;Uploading Data From CSV Using Batch Activities&lt;/h1&gt;&#xA;&lt;h2 id=&#34;tutorial-overview&#34;&gt;Tutorial Overview&lt;/h2&gt;&#xA;&lt;p&gt;Batch activities accept and return a &lt;code&gt;List&amp;lt;T&amp;gt;&lt;/code&gt; of entity records as&#xA;input and output for creating, updating, or deleting multiple items.&lt;/p&gt;&#xA;&lt;p&gt;These activities can accept up to 1,000 records in a single call and each activity call&#xA;will count as one call against your service usage quota.&lt;/p&gt;&#xA;&lt;p&gt;To understand how to use batch activities in Data Service, download the example below and&#xA;follow the steps in this tutorial. The example creates 50 records for an entity via 2&#xA;batch activity calls.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/examples-and-tutorials/uploading-file-fields-in-entity-records/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/examples-and-tutorials/uploading-file-fields-in-entity-records/</guid>
+      <description>&lt;h1 id=&#34;uploading-file-fields-in-entity-records&#34;&gt;Uploading File Fields in Entity Records&lt;/h1&gt;&#xA;&lt;p&gt;Using Studio you can easily manipulate specific files of an entity record. These activities allow you to execute operations such as upload, download, or delete specified files of a specified field of an entity record.&lt;/p&gt;&#xA;&lt;p&gt;The maximum size of a single file cannot exceed 10 MB, otherwise unexpected behavior might occur.&lt;/p&gt;&#xA;&lt;p&gt;The following example contains a main XAML demonstrating how to upload a file to Data Service, after downloading it from Olympics games related Wikipedia pages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/examples-and-tutorials/using-entities-in-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/examples-and-tutorials/using-entities-in-projects/</guid>
+      <description>&lt;h1 id=&#34;using-entities-in-projects&#34;&gt;Using Entities in Projects&lt;/h1&gt;&#xA;&lt;p&gt;By using entities created in Data Service, you can manage and manipulate data aggregated in a single object, without having to work with it in a granular way. To do so you need Studio v2020.8 or later.&lt;/p&gt;&#xA;&lt;p&gt;The following example retrieves data about Olympics games and medals for the top 10 countries for each category of games, together with the medals they won.&lt;/p&gt;&#xA;&lt;p&gt;Download example&lt;/p&gt;&#xA;&lt;h2 id=&#34;entities-in-data-service&#34;&gt;Entities in Data Service&lt;/h2&gt;&#xA;&lt;p&gt;Following the steps detailed on the Creating an Entity page, we created an entity for storing information about participating nations, the opening and closing dates, and the medals they won.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/getting-started/data-service-configuration-checklist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/getting-started/data-service-configuration-checklist/</guid>
+      <description>&lt;h1 id=&#34;data-service-configuration-checklist&#34;&gt;Data Service Configuration Checklist&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;After installing and enabling Data Service on your on-premises environment, make sure to check the list present in this guide that evaluates if Data Service is working properly.&lt;/p&gt;&#xA;&lt;h2 id=&#34;evaluation-guide&#34;&gt;Evaluation Guide&lt;/h2&gt;&#xA;&lt;h3 id=&#34;home-page-experience&#34;&gt;Home Page Experience&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;The Data Service tab is displayed on the left-hand of the Automation Suite home page.&lt;/li&gt;&#xA;&lt;li&gt;The More options menu displays the following options: Choice Sets, Manage Access, API Access.&lt;/li&gt;&#xA;&lt;li&gt;On the Entities page header the following operations are available: Import/Export , Use in Studio , Refresh .&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;editing-entities&#34;&gt;Editing Entities&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;On the Entities page, clicking the Create New Entity button opens the Create Entity panel on the right-side.&lt;/li&gt;&#xA;&lt;li&gt;In case of entities available for review, clicking every entity redirects you to the Fields page.&lt;/li&gt;&#xA;&lt;li&gt;Adding a new field activates the Add New Data button in the Data tab and on the page header.&lt;/li&gt;&#xA;&lt;li&gt;Deleting a field or an entity requires you to input the field or entity name for confirmation.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;editing-choice-sets&#34;&gt;Editing Choice Sets&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;On the Choice Sets page, clicking the Add Choice Set button opens the Create Choice Set panel on the right-side.&lt;/li&gt;&#xA;&lt;li&gt;In case of choice sets available for review, clicking the corresponding Edit button opens the Edit Choice Set panel on the right-side.&lt;/li&gt;&#xA;&lt;li&gt;Deleting a choice set requires you to input the choice set name for confirmation.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;using-file-fields&#34;&gt;Using File Fields&lt;/h3&gt;&#xA;&lt;p&gt;In Data Service, you can add file fields to upload files or download files using Studio or Data Service dedicated activities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/getting-started/installing-automation-suite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/getting-started/installing-automation-suite/</guid>
+      <description>&lt;h1 id=&#34;installing-automation-suite&#34;&gt;Installing Automation Suite&lt;/h1&gt;&#xA;&lt;p&gt;See how to install Automation Suite, or Automation Suite on EKS/AKS.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/getting-started/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/getting-started/introduction/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;UiPath® Data Service is a persistent data storage service that brings powerful&#xA;no-code data modeling and storage capabilities to your Robotic Process Automation (RPA)&#xA;projects.&lt;/p&gt;&#xA;&lt;p&gt;UiPath® Data Service provides a business yet user-friendly service where you can securely&#xA;store and manage your business data within UiPath:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Run unattended processes to aggregate&#xA;data from multiple systems before processing it in other systems.&lt;/li&gt;&#xA;&lt;li&gt;Use the data for long-running&#xA;business processes that need to transfer data across multiple attended and&#xA;unattended processes.&lt;/li&gt;&#xA;&lt;li&gt;The integration with Studio and&#xA;UiPath® Robot allows you to build automations leveraging capabilities such&#xA;as: Rich relational data types; Integrated security; Instantaneous and adjustable&#xA;provisioning and deployments.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;use-cases&#34;&gt;Use Cases&lt;/h2&gt;&#xA;&lt;p&gt;Below is a list of some common use cases for Data Service:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/getting-started/the-user-interface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/getting-started/the-user-interface/</guid>
+      <description>&lt;h1 id=&#34;the-user-interface&#34;&gt;The User Interface&lt;/h1&gt;&#xA;&lt;p&gt;The Data Service option is available in your UiPath organization as a tenant-level service that must be enabled. Please check the Enabling the Data Service page for step by step details. Once the service enabled, the Data Service icon  appears on the left navigation bar.&lt;/p&gt;&#xA;&lt;p&gt;Objects created in Data Service are referred to as Entities.&lt;/p&gt;&#xA;&lt;p&gt;To create a new entity or display and manage already created ones, click the Data Service icon.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/reference/api-access/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/api-access/</guid>
+      <description>&lt;h1 id=&#34;api-access&#34;&gt;API Access&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Data Service Open API allows you to manage UiPath Data Service resources from an external application of your choice, and does so by enabling you to authorize the external app without sharing any credentials, through the Oauth 2.0 authorization framework.&lt;/p&gt;&#xA;&lt;p&gt;Learn how to register the external application in UiPath® Automation Suite.&lt;/p&gt;&#xA;&lt;h2 id=&#34;api-permissions&#34;&gt;API Permissions&lt;/h2&gt;&#xA;&lt;p&gt;To use the Data Service OpenAPI, you must grant API permissions to the external application. These API permissions are known as scopes, and there are three types for Data Service:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/reference/data-service-studio-activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/data-service-studio-activities/</guid>
+      <description>&lt;h1 id=&#34;data-service-studio-activities&#34;&gt;Data Service Studio Activities&lt;/h1&gt;&#xA;&lt;p&gt;This section includes Data Service related activities available in UiPath® Studio under&#xA;the UiPath.DataService.Activities pack.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Entity records&#xA;manipulation: Create Entity RecordDelete Entity RecordGet Entity Record By IdQuery Entity RecordsUpdate Entity Record&lt;/li&gt;&#xA;&lt;li&gt;File fields from entity records&#xA;manipulation: Upload File to Record FieldDownload File from Record FieldDelete File from Record Field&lt;/li&gt;&#xA;&lt;li&gt;Multiple entity records&#xA;manipulation: Create Multiple Entity RecordsUpdate Multiple Entity RecordsDelete Multiple Entity Records&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/reference/entity-field-types/auto-number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/entity-field-types/auto-number/</guid>
+      <description>&lt;h1 id=&#34;auto-number&#34;&gt;Auto-number&lt;/h1&gt;&#xA;&lt;p&gt;An Auto-number field is used to store a unique index number for your data. It automatically increments the count for every new record.&lt;/p&gt;&#xA;&lt;h3 id=&#34;details&#34;&gt;Details&lt;/h3&gt;&#xA;&lt;p&gt;Below is an overview of the details that can be specified to define an Auto-number field.&lt;/p&gt;&#xA;&lt;p&gt;PropertyDescriptionRequiredAllowed valuesStarting value(Int64)Enables you to specify the starting index number of your records. The first record has this value. The following records increment from this value forward.Default value: 1Yes1 to (2^53-1)Description(String)Enables you to enter a short text to describe the purpose of the Auto-number field.The description is displayed in the Fields tab.No&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/reference/entity-field-types/choice-set/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/entity-field-types/choice-set/</guid>
+      <description>&lt;h1 id=&#34;choice-set&#34;&gt;Choice Set&lt;/h1&gt;&#xA;&lt;p&gt;A Choice Set field is used to store an enumerated list from which one or more values can be selected. A Choice Set can be used, for example, to select an expense type, a forum post category, or a certain edition of a recurring event.&lt;/p&gt;&#xA;&lt;h3 id=&#34;details&#34;&gt;Details&lt;/h3&gt;&#xA;&lt;p&gt;Below is an overview of the details that can be specified to define a Choice Set field.&lt;/p&gt;&#xA;&lt;p&gt;PropertyDescriptionRequiredDefault ValueChoice SetEnables you to select the choice set you want to use for the field, or to create a new choice set.You can click View all Choice Sets to access the Choice Sets module.YesAllow multiple selectionsEnables you to specify whether more than one value can be selected from the available choices.NoNoRequiredEnables you to specify whether the field is required or not.NoNoDescriptionEnables you to enter a short text to describe the purpose of the Choice Set field.The Description is  displayed in Fields tab.No&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/reference/entity-field-types/date-time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/entity-field-types/date-time/</guid>
+      <description>&lt;h1 id=&#34;date-time&#34;&gt;Date-Time&lt;/h1&gt;&#xA;&lt;p&gt;A Date-Time field is used to store a value that contains a date and time. A date picker can be used to select a date and time.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/8dc3755-DateTime=GUID-0EA6A81B-32AD-48D0-9620-FE32241FEA81=1=en=Default.png&#34; alt=&#34;8dc3755-DateTime=GUID-0EA6A81B-32AD-48D0-9620-FE32241FEA81=1=en=Default&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;should-hide-time&#34;&gt;Should Hide Time&lt;/h3&gt;&#xA;&lt;p&gt;If you select the Should Hide Time option the field value of the Date-Time field can only contain a date value. In this case, you can only select a date from the date picker.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/06c69be-Date=GUID-CF82923B-994C-4BD5-9A45-42976B1E04D2=1=en=Default.png&#34; alt=&#34;06c69be-Date=GUID-CF82923B-994C-4BD5-9A45-42976B1E04D2=1=en=Default&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;All Date-Time and Date fields are stored as UTC dates and times in Data Service.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/reference/entity-field-types/file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/entity-field-types/file/</guid>
+      <description>&lt;h1 id=&#34;file&#34;&gt;File&lt;/h1&gt;&#xA;&lt;p&gt;A File field is used to attach a file to a record field of an entity.&lt;/p&gt;&#xA;&lt;p&gt;The maximum size of a single file cannot exceed 10 MB, otherwise unexpected behavior might occur.&lt;/p&gt;&#xA;&lt;h3 id=&#34;details&#34;&gt;Details&lt;/h3&gt;&#xA;&lt;p&gt;Below is an overview of the details that can be specified to define a File field.&lt;/p&gt;&#xA;&lt;p&gt;PropertyDescriptionRequiredDefault ValueDescriptionEnables you to enter a short text to describe the purpose of the File field.The Description is  displayed in Fields tab.No&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/reference/entity-field-types/number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/entity-field-types/number/</guid>
+      <description>&lt;h1 id=&#34;number&#34;&gt;Number&lt;/h1&gt;&#xA;&lt;p&gt;A Number field is used to store a number value. Number values can be positive or negative. You must specify the number of decimal places that you want to use.&lt;/p&gt;&#xA;&lt;h3 id=&#34;details&#34;&gt;Details&lt;/h3&gt;&#xA;&lt;p&gt;Below is an overview of the details that can be specified to define a Number field.&lt;/p&gt;&#xA;&lt;p&gt;PropertyDescriptionRequiredDefault ValueAllowed ValuesMaximum ValueEnables you to specify the maximum value of the number that can be entered in the Number field.This can be a negative number.Yes1000000000000Between Minimum Value and 2^53 - 1Minimum ValueEnables you to specify the minimum value of the number that can be entered in the Number field.This can be a negative number.Yes-1000000000000Between -(2^53 - 1) and Maximum ValueDecimal PlacesEnables you to specify the maximum number of decimals that can be used for the Number field.Yes20 - 10Default ValueEnables you to specify a default value for the Number field.The default value can be changed in the Data tab.NoDescriptionEnables you to enter a short text to describe the purpose of the Number field.The Description will be displayed in Fields tab.No&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/reference/entity-field-types/relationship/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/entity-field-types/relationship/</guid>
+      <description>&lt;h1 id=&#34;relationship&#34;&gt;Relationship&lt;/h1&gt;&#xA;&lt;p&gt;A Relationship field type is used to bind two entities. The field uses the one-to-many (1:M) cardinality to correlate a field from the related entity (1) with the host entity (M).&lt;/p&gt;&#xA;&lt;h3 id=&#34;details&#34;&gt;Details&lt;/h3&gt;&#xA;&lt;p&gt;Below is an overview of the details that can be specified to define a Relationship field.&lt;/p&gt;&#xA;&lt;p&gt;PropertyDescriptionRequiredDefault ValueRelated EntityEnables you to select the entity to which you want to create a relationship.YesRelated Entity Display FieldEnables you to select the display field from the related entity to be shown in the user interface.The actual relationship between the entities is based on the Ids of entities.YesDescriptionEnables you to enter a short text to describe the purpose of the Relationship field.The Description is  displayed in Fields tab.No&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/reference/entity-field-types/text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/entity-field-types/text/</guid>
+      <description>&lt;h1 id=&#34;text&#34;&gt;Text&lt;/h1&gt;&#xA;&lt;p&gt;A Text field is used to store a small amount of text.&lt;/p&gt;&#xA;&lt;h3 id=&#34;details&#34;&gt;Details&lt;/h3&gt;&#xA;&lt;p&gt;Below is an overview of the details that can be specified to define a Text field.&lt;/p&gt;&#xA;&lt;p&gt;PropertyDescriptionRequiredDefault ValueAllowed ValuesMaximum LengthEnables you to specify the maximum number of characters that can be entered in the Text field.Yes2001 - 4,000Default ValueEnables you to specify a default value for the Text field.The default value can be changed in the Data tab.NoDescriptionEnables you to enter a short text to describe the purpose of the Textfield.The Description will be displayed in Fields tab.No&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/reference/entity-field-types/yesno/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/reference/entity-field-types/yesno/</guid>
+      <description>&lt;h1 id=&#34;yesno&#34;&gt;Yes/No&lt;/h1&gt;&#xA;&lt;p&gt;A Yes/No field is used to choose between a Yes or No value.&lt;/p&gt;&#xA;&lt;p&gt;The option None is available in case the field is not required. If selected, it leaves the field value empty.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/c8536c2-Boolean=GUID-5967D8D7-43BA-48E5-A85F-CE7717B96EF5=1=en=Default.png&#34; alt=&#34;c8536c2-Boolean=GUID-5967D8D7-43BA-48E5-A85F-CE7717B96EF5=1=en=Default&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;details&#34;&gt;Details&lt;/h3&gt;&#xA;&lt;p&gt;Below is an overview of the details that can be specified to define a Yes/No field.&lt;/p&gt;&#xA;&lt;p&gt;PropertyDescriptionRequiredDefault ValueDefault ValueEnables you to specify a default value for the Yes-No field.The default value can be changed in the Data tab.NoDescriptionEnables you to enter a short text to describe the purpose of the Yes-No field.The Description is displayed in Fields tab.No&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/setup-and-configuration/enabling-data-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/setup-and-configuration/enabling-data-service/</guid>
+      <description>&lt;h1 id=&#34;enabling-data-service&#34;&gt;Enabling Data Service&lt;/h1&gt;&#xA;&lt;p&gt;To be able to create and use Data Service you first need to enable it for your tenant. Before enabling the service please check the Prerequisites.&lt;/p&gt;&#xA;&lt;p&gt;Data Service is a tenant level service signifying that each tenant data is segregated.&lt;/p&gt;&#xA;&lt;h2 id=&#34;enabling-data-service-in-automation-suite&#34;&gt;Enabling Data Service in Automation Suite&lt;/h2&gt;&#xA;&lt;p&gt;There are two scenarios that enable Data Service as part of your Automation Suite instance:&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-case-of-a-fresh-automation-suite-installation&#34;&gt;The Case of a Fresh Automation Suite Installation&lt;/h3&gt;&#xA;&lt;p&gt;Data Service is provided as part of the Automation Suite basic profile, hence it is enabled&#xA;automatically, regardless if you select the basic or the complete profile. To disable Data&#xA;Service, follow the Advanced installation experience in the Automation Suite guide for&#xA;the desired version.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/setup-and-configuration/managing-access/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/setup-and-configuration/managing-access/</guid>
+      <description>&lt;h1 id=&#34;managing-access&#34;&gt;Managing Access&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;The Manage Access module enables you to manage user roles for an entity in your Data Service tenant. This extensive and granular permission model allows you to integrate all your business users using the service, based on their level of expertise, and your business requirements. Furthermore, you can select users or groups from your organization and assign roles to them.&lt;/p&gt;&#xA;&lt;p&gt;Data Service is configured such that organization users can read data by default, via the Everyone group.To limit data access, manage permissions and ensure that only relevant users have the Read permission. Further, add users or groups that need access, and assign them the desired roles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/using-the-data-service/advanced-search-in-entity-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/using-the-data-service/advanced-search-in-entity-data/</guid>
+      <description>&lt;h1 id=&#34;advanced-search-in-entity-data&#34;&gt;Advanced Search in Entity Data&lt;/h1&gt;&#xA;&lt;p&gt;Entities contain a large amount of data which can be difficult to navigate and query.&lt;/p&gt;&#xA;&lt;p&gt;The advanced search feature allows you to find any entity data, by querying any of the data fields.&lt;/p&gt;&#xA;&lt;h2 id=&#34;roles&#34;&gt;Roles&lt;/h2&gt;&#xA;&lt;p&gt;You need the Data Reader role to see and query entity data. See more details on how to Manage access.&lt;/p&gt;&#xA;&lt;h2 id=&#34;searching-for-data&#34;&gt;Searching for Data&lt;/h2&gt;&#xA;&lt;p&gt;To use the Search in field:Navigate to the Data tab of the desired entity in Data Service. From the Search in: dropdown, select the entity fields you want to retrieve results from.The search algorithm looks up number and text data-type fields.In the Search field, enter the search string. The grid displays the queried results. To apply more filters on your results list, click Advanced Search. This opens the Advanced Search panel on the right-hand side.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/using-the-data-service/choice-sets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/using-the-data-service/choice-sets/</guid>
+      <description>&lt;h1 id=&#34;choice-sets&#34;&gt;Choice Sets&lt;/h1&gt;&#xA;&lt;p&gt;The Choice Sets module enables you to manage choice sets for a data service tenant. Choice sets can be used as field types in an entity.&lt;/p&gt;&#xA;&lt;p&gt;A choice set consists of choice values that can be selected from for a field based on that choice set. The choice set is also made available in Studio as Enum value.&lt;/p&gt;&#xA;&lt;p&gt;Learn how to manage your choice sets: access, create, update or delete your Data Service choice sets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/using-the-data-service/creating-an-entity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/using-the-data-service/creating-an-entity/</guid>
+      <description>&lt;h1 id=&#34;creating-an-entity&#34;&gt;Creating an Entity&lt;/h1&gt;&#xA;&lt;p&gt;All objects created in Data Service are referred to as Entities.&lt;/p&gt;&#xA;&lt;p&gt;Navigate to Data Service from the left-side navigation bar. The Entities page opens.Click Create New Entity. The Create Entity wizard opens.Enter a Display Name for your entity. The Display Name is the name displayed when you import the entity in Studio. This field can be modified after the entity is created.Enter a Name for your entity. The Name is can be alpha-numeric, but it must start with a letter. It must have between 3 and 30 characters.The Name field is automatically populated with the same value provided for the Display Name. You can only change its value during the entity creation process. Once the entity is created, the Name field cannot be edited.Optionally, add a Description for your entity.Optionally, to keep the Create entity wizard open, select the Create another checkbox. This helps you create multiple entities faster, as it skips step 2 of this procedure.Click Save.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/using-the-data-service/creating-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/using-the-data-service/creating-relationships/</guid>
+      <description>&lt;h1 id=&#34;creating-relationships&#34;&gt;Creating Relationships&lt;/h1&gt;&#xA;&lt;p&gt;Follow these steps to create a relationship between your entities.&lt;/p&gt;&#xA;&lt;p&gt;In the Entities list, select the entity for which you want to add a relationship.In the Fields tab, click Create New Field.In the Create Field panel enter a Display Name in the corresponding field.Select Relationship from the Type drop-down list.Select the entity to which you want to create a relationship from the Related Entity drop-down list.Select the display field to be shown in the user interface from the Related Entity Display Field drop-down list.Click Save.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/using-the-data-service/customizing-an-entity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/using-the-data-service/customizing-an-entity/</guid>
+      <description>&lt;h1 id=&#34;customizing-an-entity&#34;&gt;Customizing an Entity&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Data Service contains System built-in fields. When you create a new entity a set of default fields is automatically created still you can customize the entities you defined by adding specific fields.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/89378c7-Default_fields=GUID-F70EFAE8-9242-4342-A1FA-E1D75011F937=1=en=Default.png&#34; alt=&#34;89378c7-Default_fields=GUID-F70EFAE8-9242-4342-A1FA-E1D75011F937=1=en=Default&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;field-types&#34;&gt;Field Types&lt;/h2&gt;&#xA;&lt;p&gt;You can create the fields of the following field types.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Text : this field can be used to store a small amount of text.&lt;/li&gt;&#xA;&lt;li&gt;Number : this field can be used to store a number value. Number values can be positive or negative. You must specify the number of decimal places that you want to use.&lt;/li&gt;&#xA;&lt;li&gt;Yes/No : this field is used to choose between a Yes or No value.&lt;/li&gt;&#xA;&lt;li&gt;Date-Time : this field is used to store a value that contains a date and time. A date picker can be used to select a date and time.&lt;/li&gt;&#xA;&lt;li&gt;Relationship : this field is used to create a relation between two entities.&lt;/li&gt;&#xA;&lt;li&gt;Choice Set : this field is used to store a list of enumerated values from which one or more values can be selected.&lt;/li&gt;&#xA;&lt;li&gt;File: this field is used to store a file.&lt;/li&gt;&#xA;&lt;li&gt;Auto-number: this field is used to automatically increase record indexes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Each type of field requires different details that must be specified. Please check the specific page under Entity Field Types to find out more.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/using-the-data-service/importing-entities-in-studio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/using-the-data-service/importing-entities-in-studio/</guid>
+      <description>&lt;h1 id=&#34;importing-entities-in-studio&#34;&gt;Importing Entities in Studio&lt;/h1&gt;&#xA;&lt;p&gt;Entities enable you to use records from Data Service in automation processes that collect, update, and pass data to other processes. Learn to import entities in Studio.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/using-the-data-service/managing-the-data-for-an-entity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/using-the-data-service/managing-the-data-for-an-entity/</guid>
+      <description>&lt;h1 id=&#34;managing-the-data-for-an-entity&#34;&gt;Managing the Data for an Entity&lt;/h1&gt;&#xA;&lt;p&gt;You can import the entity in UiPath® Studio and use it in your process to create data.&#xA;However, you can add, manage, and delete basic data to entities in Data Service by&#xA;following the below steps:&lt;/p&gt;&#xA;&lt;h2 id=&#34;adding-data&#34;&gt;Adding Data&lt;/h2&gt;&#xA;&lt;p&gt;To add new data to an entity follow the below steps:&lt;/p&gt;&#xA;&lt;p&gt;Click on the entity for which you want to add more data.&#xA;Access the Data tab.Click Add New Data.In the Add Data panel add a value for each field that you have defined for the entity.Click Save.A new data record is displayed in the Data tab.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/using-the-data-service/schema-export-and-import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/using-the-data-service/schema-export-and-import/</guid>
+      <description>&lt;h1 id=&#34;schema-export-and-import&#34;&gt;Schema Export and Import&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;A schema represents the metadata of every entity and choice set, holding information such as entity fields data type or relationships between entity fields.&lt;/p&gt;&#xA;&lt;p&gt;By exporting and importing schema, you are able to implement the best practices of an application lifecycle management—development, testing, deployment—considering capabilities such as copying schema between tenants or tracking schema changes through a source control tool of your choice.&lt;/p&gt;&#xA;&lt;p&gt;Exporting schema downloads a JSON file containing the entity metadata on your local machine. You may share the file to be imported by different developers into their tenants, and you yourself can import schemas developed by the community.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/using-the-data-service/system-user-entity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/using-the-data-service/system-user-entity/</guid>
+      <description>&lt;h1 id=&#34;system-user-entity&#34;&gt;System User Entity&lt;/h1&gt;&#xA;&lt;p&gt;The System User entity holds all the users, groups, and robot accounts available in your tenant.&lt;/p&gt;&#xA;&lt;p&gt;A banner asking you to upgrade is displayed when you access any entity created prior to the release of the System User entity:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/db6125f-upgrade_entity=GUID-D9A29036-4B35-4A40-B4C3-AC5ACD2619BC=1=en=Default.png&#34; alt=&#34;db6125f-upgrade_entity=GUID-D9A29036-4B35-4A40-B4C3-AC5ACD2619BC=1=en=Default&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The upgrading process converts the type of Created By and Modified By fields from UniqueId to Relationship.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/3162c91-difference_in_fields=GUID-7280B99A-1DAC-4AF1-B785-091AC866BCCA=1=en=Default.png&#34; alt=&#34;3162c91-difference_in_fields=GUID-7280B99A-1DAC-4AF1-B785-091AC866BCCA=1=en=Default&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Processes using Created By and Updated By fields must be updated to query the relationship to identify users that created or modified the records, and use the latest version of Data Service activities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/using-the-data-service/using-apps-with-data-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/using-the-data-service/using-apps-with-data-service/</guid>
+      <description>&lt;h1 id=&#34;using-apps-with-data-service&#34;&gt;Using Apps With Data Service&lt;/h1&gt;&#xA;&lt;p&gt;Learn to use Apps with Data Service.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
